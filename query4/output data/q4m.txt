@@ -1,0 +1,219 @@
+
++----------------+----------------+------+
+|division        |average_distance|#     |
++----------------+----------------+------+
+|HOLLYWOOD       |2.077           |225515|
+|VAN NUYS        |2.953           |211130|
+|SOUTHWEST       |2.191           |189565|
+|WILSHIRE        |2.593           |187061|
+|77TH STREET     |1.717           |172558|
+|OLYMPIC         |1.725           |172353|
+|NORTH HOLLYWOOD |2.643           |168655|
+|PACIFIC         |3.853           |162514|
+|CENTRAL         |0.993           |154952|
+|SOUTHEAST       |2.422           |153746|
+|RAMPART         |1.535           |153690|
+|TOPANGA         |3.298           |141070|
+|WEST VALLEY     |3.039           |139820|
+|FOOTHILL        |4.251           |135381|
+|HARBOR          |3.702           |127370|
+|HOLLENBECK      |2.677           |116558|
+|WEST LOS ANGELES|2.79            |116308|
+|NEWTON          |1.635           |111628|
+|NORTHEAST       |3.623           |108549|
+|MISSION         |3.685           |105331|
+|DEVONSHIRE      |2.824           |81226 |
++----------------+----------------+------+
+
+Query 4 build time: 11.57 seconds
+Query 4 query time: 18.32 seconds
+
+Query 4 build time: 11.55 seconds
+Query 4 query time: 16.40 seconds
+
+Query 4 build time: 11.40 seconds
+Query 4 query time: 17.86 seconds
+
+Query 4 build time: 11.89 seconds
+Query 4 query time: 17.97 seconds
+
+Query 4 build time: 11.34 seconds
+Query 4 query time: 18.19 seconds
+
+Query 4 build time: 11.84 seconds
+Query 4 query time: 17.69 second
+
+Plan:
+== Parsed Logical Plan ==
+'Sort ['# DESC NULLS LAST], true
++- Project [division#41, average_distance#386, ##388L]
+   +- Aggregate [division#41], [division#41, round(avg(distance#268), 3) AS average_distance#386, count(1) AS ##388L]
+      +- Project [division#41, distance#268]
+         +- Join Inner, ((DR_NO#95 = DR_NO#293) AND (min_distance#290 = distance#268))
+            :- Aggregate [DR_NO#95], [DR_NO#95, min(distance#268) AS min_distance#290]
+            :  +- Project [DR_NO#95, crime_lat#254, crime_lon#255, station_lon#63, station_lat#70, FID#31, division#41, LOCATION#33, PREC#34, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / cast(2 as double))), cast(2 as double)) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / cast(2 as double))), cast(2 as double)))))) * 12742.0) AS distance#268]
+            :     +- Join Cross
+            :        :- Filter ((isnotnull(crime_lat#254) AND isnotnull(crime_lon#255)) AND NOT ((crime_lat#254 = cast(0 as double)) AND (crime_lon#255 = cast(0 as double))))
+            :        :  +- Project [DR_NO#95, cast(LAT#121 as double) AS crime_lat#254, cast(LON#122 as double) AS crime_lon#255]
+            :        :     +- Union false, false
+            :        :        :- Relation [DR_NO#95,Date Rptd#96,DATE OCC#97,TIME OCC#98,AREA#99,AREA NAME#100,Rpt Dist No#101,Part 1-2#102,Crm Cd#103,Crm Cd Desc#104,Mocodes#105,Vict Age#106,Vict Sex#107,Vict Descent#108,Premis Cd#109,Premis Desc#110,Weapon Used Cd#111,Weapon Desc#112,Status#113,Status Desc#114,Crm Cd 1#115,Crm Cd 2#116,Crm Cd 3#117,Crm Cd 4#118,... 4 more fields] csv
+            :        :        +- Project [DR_NO#169, Date Rptd#170, DATE OCC#171, TIME OCC#172, AREA#173, AREA NAME#174, Rpt Dist No#175, Part 1-2#176, Crm Cd#177, Crm Cd Desc#178, Mocodes#179, Vict Age#180, Vict Sex#181, Vict Descent#182, Premis Cd#183, Premis Desc#184, Weapon Used Cd#185, Weapon Desc#186, Status#187, Status Desc#188, Crm Cd 1#189, Crm Cd 2#190, Crm Cd 3#191, Crm Cd 4#192, ... 4 more fields]
+            :        :           +- Relation [DR_NO#169,Date Rptd#170,DATE OCC#171,TIME OCC#172,AREA#173,AREA NAME#174,Rpt Dist No#175,Part 1-2#176,Crm Cd#177,Crm Cd Desc#178,Mocodes#179,Vict Age#180,Vict Sex#181,Vict Descent#182,Premis Cd#183,Premis Desc#184,Weapon Used Cd#185,Weapon Desc#186,Status#187,Status Desc#188,Crm Cd 1#189,Crm Cd 2#190,Crm Cd 3#191,Crm Cd 4#192,... 4 more fields] csv
+            :        +- Project [station_lon#63, cast(station_lat#56 as double) AS station_lat#70, FID#31, division#41, LOCATION#33, PREC#34]
+            :           +- Project [cast(station_lon#49 as double) AS station_lon#63, station_lat#56, FID#31, division#41, LOCATION#33, PREC#34]
+            :              +- Project [station_lon#49, Y#30 AS station_lat#56, FID#31, division#41, LOCATION#33, PREC#34]
+            :                 +- Project [X#29 AS station_lon#49, Y#30, FID#31, division#41, LOCATION#33, PREC#34]
+            :                    +- Project [X#29, Y#30, FID#31, DIVISION#32 AS division#41, LOCATION#33, PREC#34]
+            :                       +- Relation [X#29,Y#30,FID#31,DIVISION#32,LOCATION#33,PREC#34] csv
+            +- Project [DR_NO#293, crime_lat#254, crime_lon#255, station_lon#63, station_lat#70, FID#351, division#41, LOCATION#353, PREC#354, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / cast(2 as double))), cast(2 as double)) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / cast(2 as double))), cast(2 as double)))))) * 12742.0) AS distance#268]
+               +- Join Cross
+                  :- Filter ((isnotnull(crime_lat#254) AND isnotnull(crime_lon#255)) AND NOT ((crime_lat#254 = cast(0 as double)) AND (crime_lon#255 = cast(0 as double))))
+                  :  +- Project [DR_NO#293, cast(LAT#319 as double) AS crime_lat#254, cast(LON#320 as double) AS crime_lon#255]
+                  :     +- Union false, false
+                  :        :- Relation [DR_NO#293,Date Rptd#294,DATE OCC#295,TIME OCC#296,AREA#297,AREA NAME#298,Rpt Dist No#299,Part 1-2#300,Crm Cd#301,Crm Cd Desc#302,Mocodes#303,Vict Age#304,Vict Sex#305,Vict Descent#306,Premis Cd#307,Premis Desc#308,Weapon Used Cd#309,Weapon Desc#310,Status#311,Status Desc#312,Crm Cd 1#313,Crm Cd 2#314,Crm Cd 3#315,Crm Cd 4#316,... 4 more fields] csv
+                  :        +- Project [DR_NO#321, Date Rptd#322, DATE OCC#323, TIME OCC#324, AREA#325, AREA NAME#326, Rpt Dist No#327, Part 1-2#328, Crm Cd#329, Crm Cd Desc#330, Mocodes#331, Vict Age#332, Vict Sex#333, Vict Descent#334, Premis Cd#335, Premis Desc#336, Weapon Used Cd#337, Weapon Desc#338, Status#339, Status Desc#340, Crm Cd 1#341, Crm Cd 2#342, Crm Cd 3#343, Crm Cd 4#344, ... 4 more fields]
+                  :           +- Relation [DR_NO#321,Date Rptd#322,DATE OCC#323,TIME OCC#324,AREA#325,AREA NAME#326,Rpt Dist No#327,Part 1-2#328,Crm Cd#329,Crm Cd Desc#330,Mocodes#331,Vict Age#332,Vict Sex#333,Vict Descent#334,Premis Cd#335,Premis Desc#336,Weapon Used Cd#337,Weapon Desc#338,Status#339,Status Desc#340,Crm Cd 1#341,Crm Cd 2#342,Crm Cd 3#343,Crm Cd 4#344,... 4 more fields] csv
+                  +- Project [station_lon#63, cast(station_lat#56 as double) AS station_lat#70, FID#351, division#41, LOCATION#353, PREC#354]
+                     +- Project [cast(station_lon#49 as double) AS station_lon#63, station_lat#56, FID#351, division#41, LOCATION#353, PREC#354]
+                        +- Project [station_lon#49, Y#350 AS station_lat#56, FID#351, division#41, LOCATION#353, PREC#354]
+                           +- Project [X#349 AS station_lon#49, Y#350, FID#351, division#41, LOCATION#353, PREC#354]
+                              +- Project [X#349, Y#350, FID#351, DIVISION#352 AS division#41, LOCATION#353, PREC#354]
+                                 +- Relation [X#349,Y#350,FID#351,DIVISION#352,LOCATION#353,PREC#354] csv
+
+== Analyzed Logical Plan ==
+division: string, average_distance: double, #: bigint
+Sort [##388L DESC NULLS LAST], true
++- Project [division#41, average_distance#386, ##388L]
+   +- Aggregate [division#41], [division#41, round(avg(distance#268), 3) AS average_distance#386, count(1) AS ##388L]
+      +- Project [division#41, distance#268]
+         +- Join Inner, ((DR_NO#95 = DR_NO#293) AND (min_distance#290 = distance#268))
+            :- Aggregate [DR_NO#95], [DR_NO#95, min(distance#268) AS min_distance#290]
+            :  +- Project [DR_NO#95, crime_lat#254, crime_lon#255, station_lon#63, station_lat#70, FID#31, division#41, LOCATION#33, PREC#34, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / cast(2 as double))), cast(2 as double)) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / cast(2 as double))), cast(2 as double)))))) * 12742.0) AS distance#268]
+            :     +- Join Cross
+            :        :- Filter ((isnotnull(crime_lat#254) AND isnotnull(crime_lon#255)) AND NOT ((crime_lat#254 = cast(0 as double)) AND (crime_lon#255 = cast(0 as double))))
+            :        :  +- Project [DR_NO#95, cast(LAT#121 as double) AS crime_lat#254, cast(LON#122 as double) AS crime_lon#255]
+            :        :     +- Union false, false
+            :        :        :- Relation [DR_NO#95,Date Rptd#96,DATE OCC#97,TIME OCC#98,AREA#99,AREA NAME#100,Rpt Dist No#101,Part 1-2#102,Crm Cd#103,Crm Cd Desc#104,Mocodes#105,Vict Age#106,Vict Sex#107,Vict Descent#108,Premis Cd#109,Premis Desc#110,Weapon Used Cd#111,Weapon Desc#112,Status#113,Status Desc#114,Crm Cd 1#115,Crm Cd 2#116,Crm Cd 3#117,Crm Cd 4#118,... 4 more fields] csv
+            :        :        +- Project [DR_NO#169, Date Rptd#170, DATE OCC#171, TIME OCC#172, AREA#173, AREA NAME#174, Rpt Dist No#175, Part 1-2#176, Crm Cd#177, Crm Cd Desc#178, Mocodes#179, Vict Age#180, Vict Sex#181, Vict Descent#182, Premis Cd#183, Premis Desc#184, Weapon Used Cd#185, Weapon Desc#186, Status#187, Status Desc#188, Crm Cd 1#189, Crm Cd 2#190, Crm Cd 3#191, Crm Cd 4#192, ... 4 more fields]
+            :        :           +- Relation [DR_NO#169,Date Rptd#170,DATE OCC#171,TIME OCC#172,AREA#173,AREA NAME#174,Rpt Dist No#175,Part 1-2#176,Crm Cd#177,Crm Cd Desc#178,Mocodes#179,Vict Age#180,Vict Sex#181,Vict Descent#182,Premis Cd#183,Premis Desc#184,Weapon Used Cd#185,Weapon Desc#186,Status#187,Status Desc#188,Crm Cd 1#189,Crm Cd 2#190,Crm Cd 3#191,Crm Cd 4#192,... 4 more fields] csv
+            :        +- Project [station_lon#63, cast(station_lat#56 as double) AS station_lat#70, FID#31, division#41, LOCATION#33, PREC#34]
+            :           +- Project [cast(station_lon#49 as double) AS station_lon#63, station_lat#56, FID#31, division#41, LOCATION#33, PREC#34]
+            :              +- Project [station_lon#49, Y#30 AS station_lat#56, FID#31, division#41, LOCATION#33, PREC#34]
+            :                 +- Project [X#29 AS station_lon#49, Y#30, FID#31, division#41, LOCATION#33, PREC#34]
+            :                    +- Project [X#29, Y#30, FID#31, DIVISION#32 AS division#41, LOCATION#33, PREC#34]
+            :                       +- Relation [X#29,Y#30,FID#31,DIVISION#32,LOCATION#33,PREC#34] csv
+            +- Project [DR_NO#293, crime_lat#254, crime_lon#255, station_lon#63, station_lat#70, FID#351, division#41, LOCATION#353, PREC#354, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / cast(2 as double))), cast(2 as double)) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / cast(2 as double))), cast(2 as double)))))) * 12742.0) AS distance#268]
+               +- Join Cross
+                  :- Filter ((isnotnull(crime_lat#254) AND isnotnull(crime_lon#255)) AND NOT ((crime_lat#254 = cast(0 as double)) AND (crime_lon#255 = cast(0 as double))))
+                  :  +- Project [DR_NO#293, cast(LAT#319 as double) AS crime_lat#254, cast(LON#320 as double) AS crime_lon#255]
+                  :     +- Union false, false
+                  :        :- Relation [DR_NO#293,Date Rptd#294,DATE OCC#295,TIME OCC#296,AREA#297,AREA NAME#298,Rpt Dist No#299,Part 1-2#300,Crm Cd#301,Crm Cd Desc#302,Mocodes#303,Vict Age#304,Vict Sex#305,Vict Descent#306,Premis Cd#307,Premis Desc#308,Weapon Used Cd#309,Weapon Desc#310,Status#311,Status Desc#312,Crm Cd 1#313,Crm Cd 2#314,Crm Cd 3#315,Crm Cd 4#316,... 4 more fields] csv
+                  :        +- Project [DR_NO#321, Date Rptd#322, DATE OCC#323, TIME OCC#324, AREA#325, AREA NAME#326, Rpt Dist No#327, Part 1-2#328, Crm Cd#329, Crm Cd Desc#330, Mocodes#331, Vict Age#332, Vict Sex#333, Vict Descent#334, Premis Cd#335, Premis Desc#336, Weapon Used Cd#337, Weapon Desc#338, Status#339, Status Desc#340, Crm Cd 1#341, Crm Cd 2#342, Crm Cd 3#343, Crm Cd 4#344, ... 4 more fields]
+                  :           +- Relation [DR_NO#321,Date Rptd#322,DATE OCC#323,TIME OCC#324,AREA#325,AREA NAME#326,Rpt Dist No#327,Part 1-2#328,Crm Cd#329,Crm Cd Desc#330,Mocodes#331,Vict Age#332,Vict Sex#333,Vict Descent#334,Premis Cd#335,Premis Desc#336,Weapon Used Cd#337,Weapon Desc#338,Status#339,Status Desc#340,Crm Cd 1#341,Crm Cd 2#342,Crm Cd 3#343,Crm Cd 4#344,... 4 more fields] csv
+                  +- Project [station_lon#63, cast(station_lat#56 as double) AS station_lat#70, FID#351, division#41, LOCATION#353, PREC#354]
+                     +- Project [cast(station_lon#49 as double) AS station_lon#63, station_lat#56, FID#351, division#41, LOCATION#353, PREC#354]
+                        +- Project [station_lon#49, Y#350 AS station_lat#56, FID#351, division#41, LOCATION#353, PREC#354]
+                           +- Project [X#349 AS station_lon#49, Y#350, FID#351, division#41, LOCATION#353, PREC#354]
+                              +- Project [X#349, Y#350, FID#351, DIVISION#352 AS division#41, LOCATION#353, PREC#354]
+                                 +- Relation [X#349,Y#350,FID#351,DIVISION#352,LOCATION#353,PREC#354] csv
+
+== Optimized Logical Plan ==
+Sort [##388L DESC NULLS LAST], true
++- Aggregate [division#41], [division#41, round(avg(distance#268), 3) AS average_distance#386, count(1) AS ##388L]
+   +- Project [division#41, distance#268]
+      +- Join Inner, ((DR_NO#95 = DR_NO#293) AND (knownfloatingpointnormalized(normalizenanandzero(min_distance#290)) = knownfloatingpointnormalized(normalizenanandzero(distance#268))))
+         :- Filter isnotnull(min_distance#290)
+         :  +- Aggregate [DR_NO#95], [DR_NO#95, min(distance#268) AS min_distance#290]
+         :     +- Project [DR_NO#95, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0) AS distance#268]
+         :        +- Join Cross
+         :           :- Union false, false
+         :           :  :- Project [DR_NO#95, cast(LAT#121 as double) AS crime_lat#254, cast(LON#122 as double) AS crime_lon#255]
+         :           :  :  +- Filter (((isnotnull(LAT#121) AND isnotnull(LON#122)) AND ((isnotnull(cast(LAT#121 as double)) AND isnotnull(cast(LON#122 as double))) AND (NOT (cast(LAT#121 as double) = 0.0) OR NOT (cast(LON#122 as double) = 0.0)))) AND isnotnull(DR_NO#95))
+         :           :  :     +- Relation [DR_NO#95,Date Rptd#96,DATE OCC#97,TIME OCC#98,AREA#99,AREA NAME#100,Rpt Dist No#101,Part 1-2#102,Crm Cd#103,Crm Cd Desc#104,Mocodes#105,Vict Age#106,Vict Sex#107,Vict Descent#108,Premis Cd#109,Premis Desc#110,Weapon Used Cd#111,Weapon Desc#112,Status#113,Status Desc#114,Crm Cd 1#115,Crm Cd 2#116,Crm Cd 3#117,Crm Cd 4#118,... 4 more fields] csv
+         :           :  +- Project [DR_NO#169, cast(LAT#195 as double) AS crime_lat#575, cast(LON#196 as double) AS crime_lon#576]
+         :           :     +- Filter (((isnotnull(LAT#195) AND isnotnull(LON#196)) AND ((isnotnull(cast(LAT#195 as double)) AND isnotnull(cast(LON#196 as double))) AND (NOT (cast(LAT#195 as double) = 0.0) OR NOT (cast(LON#196 as double) = 0.0)))) AND isnotnull(DR_NO#169))
+         :           :        +- Relation [DR_NO#169,Date Rptd#170,DATE OCC#171,TIME OCC#172,AREA#173,AREA NAME#174,Rpt Dist No#175,Part 1-2#176,Crm Cd#177,Crm Cd Desc#178,Mocodes#179,Vict Age#180,Vict Sex#181,Vict Descent#182,Premis Cd#183,Premis Desc#184,Weapon Used Cd#185,Weapon Desc#186,Status#187,Status Desc#188,Crm Cd 1#189,Crm Cd 2#190,Crm Cd 3#191,Crm Cd 4#192,... 4 more fields] csv
+         :           +- Project [cast(X#29 as double) AS station_lon#63, cast(Y#30 as double) AS station_lat#70]
+         :              +- Relation [X#29,Y#30,FID#31,DIVISION#32,LOCATION#33,PREC#34] csv
+         +- Filter bloomfilter#579 of [DR_NO#95] filtering [DR_NO#293]
+            :  +- Union false, false
+            :     :- Project [DR_NO#95, cast(LAT#121 as double) AS crime_lat#254, cast(LON#122 as double) AS crime_lon#255]
+            :     :  +- Filter (((isnotnull(LAT#121) AND isnotnull(LON#122)) AND ((isnotnull(cast(LAT#121 as double)) AND isnotnull(cast(LON#122 as double))) AND (NOT (cast(LAT#121 as double) = 0.0) OR NOT (cast(LON#122 as double) = 0.0)))) AND isnotnull(DR_NO#95))
+            :     :     +- Relation [DR_NO#95,Date Rptd#96,DATE OCC#97,TIME OCC#98,AREA#99,AREA NAME#100,Rpt Dist No#101,Part 1-2#102,Crm Cd#103,Crm Cd Desc#104,Mocodes#105,Vict Age#106,Vict Sex#107,Vict Descent#108,Premis Cd#109,Premis Desc#110,Weapon Used Cd#111,Weapon Desc#112,Status#113,Status Desc#114,Crm Cd 1#115,Crm Cd 2#116,Crm Cd 3#117,Crm Cd 4#118,... 4 more fields] csv
+            :     +- Project [DR_NO#169, cast(LAT#195 as double) AS crime_lat#575, cast(LON#196 as double) AS crime_lon#576]
+            :        +- Filter (((isnotnull(LAT#195) AND isnotnull(LON#196)) AND ((isnotnull(cast(LAT#195 as double)) AND isnotnull(cast(LON#196 as double))) AND (NOT (cast(LAT#195 as double) = 0.0) OR NOT (cast(LON#196 as double) = 0.0)))) AND isnotnull(DR_NO#169))
+            :           +- Relation [DR_NO#169,Date Rptd#170,DATE OCC#171,TIME OCC#172,AREA#173,AREA NAME#174,Rpt Dist No#175,Part 1-2#176,Crm Cd#177,Crm Cd Desc#178,Mocodes#179,Vict Age#180,Vict Sex#181,Vict Descent#182,Premis Cd#183,Premis Desc#184,Weapon Used Cd#185,Weapon Desc#186,Status#187,Status Desc#188,Crm Cd 1#189,Crm Cd 2#190,Crm Cd 3#191,Crm Cd 4#192,... 4 more fields] csv
+            +- Project [DR_NO#293, division#41, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0) AS distance#268]
+               +- Join Cross, isnotnull((ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0))
+                  :- Union false, false
+                  :  :- Project [DR_NO#293, cast(LAT#319 as double) AS crime_lat#254, cast(LON#320 as double) AS crime_lon#255]
+                  :  :  +- Filter (((isnotnull(LAT#319) AND isnotnull(LON#320)) AND ((isnotnull(cast(LAT#319 as double)) AND isnotnull(cast(LON#320 as double))) AND (NOT (cast(LAT#319 as double) = 0.0) OR NOT (cast(LON#320 as double) = 0.0)))) AND isnotnull(DR_NO#293))
+                  :  :     +- Relation [DR_NO#293,Date Rptd#294,DATE OCC#295,TIME OCC#296,AREA#297,AREA NAME#298,Rpt Dist No#299,Part 1-2#300,Crm Cd#301,Crm Cd Desc#302,Mocodes#303,Vict Age#304,Vict Sex#305,Vict Descent#306,Premis Cd#307,Premis Desc#308,Weapon Used Cd#309,Weapon Desc#310,Status#311,Status Desc#312,Crm Cd 1#313,Crm Cd 2#314,Crm Cd 3#315,Crm Cd 4#316,... 4 more fields] csv
+                  :  +- Project [DR_NO#321, cast(LAT#347 as double) AS crime_lat#577, cast(LON#348 as double) AS crime_lon#578]
+                  :     +- Filter (((isnotnull(LAT#347) AND isnotnull(LON#348)) AND ((isnotnull(cast(LAT#347 as double)) AND isnotnull(cast(LON#348 as double))) AND (NOT (cast(LAT#347 as double) = 0.0) OR NOT (cast(LON#348 as double) = 0.0)))) AND isnotnull(DR_NO#321))
+                  :        +- Relation [DR_NO#321,Date Rptd#322,DATE OCC#323,TIME OCC#324,AREA#325,AREA NAME#326,Rpt Dist No#327,Part 1-2#328,Crm Cd#329,Crm Cd Desc#330,Mocodes#331,Vict Age#332,Vict Sex#333,Vict Descent#334,Premis Cd#335,Premis Desc#336,Weapon Used Cd#337,Weapon Desc#338,Status#339,Status Desc#340,Crm Cd 1#341,Crm Cd 2#342,Crm Cd 3#343,Crm Cd 4#344,... 4 more fields] csv
+                  +- Project [cast(X#349 as double) AS station_lon#63, cast(Y#350 as double) AS station_lat#70, DIVISION#352 AS division#41]
+                     +- Relation [X#349,Y#350,FID#351,DIVISION#352,LOCATION#353,PREC#354] csv
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Sort [##388L DESC NULLS LAST], true, 0
+   +- Exchange rangepartitioning(##388L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=1204]
+      +- HashAggregate(keys=[division#41], functions=[avg(distance#268), count(1)], output=[division#41, average_distance#386, ##388L], schema specialized)
+         +- Exchange hashpartitioning(division#41, 1000), ENSURE_REQUIREMENTS, [plan_id=1202]
+            +- HashAggregate(keys=[division#41], functions=[partial_avg(distance#268), partial_count(1)], output=[division#41, sum#411, count#412L, count#414L], schema specialized)
+               +- Project [division#41, distance#268]
+                  +- SortMergeJoin [DR_NO#95, knownfloatingpointnormalized(normalizenanandzero(min_distance#290))], [DR_NO#293, knownfloatingpointnormalized(normalizenanandzero(distance#268))], Inner
+                     :- Sort [DR_NO#95 ASC NULLS FIRST, knownfloatingpointnormalized(normalizenanandzero(min_distance#290)) ASC NULLS FIRST], false, 0
+                     :  +- Exchange hashpartitioning(DR_NO#95, knownfloatingpointnormalized(normalizenanandzero(min_distance#290)), 1000), ENSURE_REQUIREMENTS, [plan_id=1107]
+                     :     +- Filter isnotnull(min_distance#290)
+                     :        +- HashAggregate(keys=[DR_NO#95], functions=[min(distance#268)], output=[DR_NO#95, min_distance#290], schema specialized)
+                     :           +- Exchange hashpartitioning(DR_NO#95, 1000), ENSURE_REQUIREMENTS, [plan_id=1097]
+                     :              +- HashAggregate(keys=[DR_NO#95], functions=[partial_min(distance#268)], output=[DR_NO#95, min#416], schema specialized)
+                     :                 +- Project [DR_NO#95, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0) AS distance#268]
+                     :                    +- BroadcastNestedLoopJoin BuildRight, Cross
+                     :                       :- Union
+                     :                       :  :- Project [DR_NO#95, cast(LAT#121 as double) AS crime_lat#254, cast(LON#122 as double) AS crime_lon#255]
+                     :                       :  :  +- Filter (((((isnotnull(LAT#121) AND isnotnull(LON#122)) AND isnotnull(cast(LAT#121 as double))) AND isnotnull(cast(LON#122 as double))) AND (NOT (cast(LAT#121 as double) = 0.0) OR NOT (cast(LON#122 as double) = 0.0))) AND isnotnull(DR_NO#95))
+                     :                       :  :     +- FileScan csv [DR_NO#95,LAT#121,LON#122] Batched: false, DataFilters: [isnotnull(LAT#121), isnotnull(LON#122), isnotnull(cast(LAT#121 as double)), isnotnull(cast(LON#1..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), IsNotNull(DR_NO)], ReadSchema: struct<DR_NO:string,LAT:string,LON:string>
+                     :                       :  +- Project [DR_NO#169, cast(LAT#195 as double) AS crime_lat#575, cast(LON#196 as double) AS crime_lon#576]
+                     :                       :     +- Filter (((((isnotnull(LAT#195) AND isnotnull(LON#196)) AND isnotnull(cast(LAT#195 as double))) AND isnotnull(cast(LON#196 as double))) AND (NOT (cast(LAT#195 as double) = 0.0) OR NOT (cast(LON#196 as double) = 0.0))) AND isnotnull(DR_NO#169))
+                     :                       :        +- FileScan csv [DR_NO#169,LAT#195,LON#196] Batched: false, DataFilters: [isnotnull(LAT#195), isnotnull(LON#196), isnotnull(cast(LAT#195 as double)), isnotnull(cast(LON#1..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), IsNotNull(DR_NO)], ReadSchema: struct<DR_NO:string,LAT:string,LON:string>
+                     :                       +- BroadcastExchange IdentityBroadcastMode, [plan_id=1092]
+                     :                          +- Project [cast(X#29 as double) AS station_lon#63, cast(Y#30 as double) AS station_lat#70]
+                     :                             +- FileScan csv [X#29,Y#30] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_P..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<X:string,Y:string>
+                     +- Sort [DR_NO#293 ASC NULLS FIRST, knownfloatingpointnormalized(normalizenanandzero(distance#268)) ASC NULLS FIRST], false, 0
+                        +- Exchange hashpartitioning(DR_NO#293, knownfloatingpointnormalized(normalizenanandzero(distance#268)), 1000), ENSURE_REQUIREMENTS, [plan_id=1197]
+                           +- Filter true
+                              +- Project [DR_NO#293, division#41, (ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0) AS distance#268]
+                                 +- BroadcastNestedLoopJoin BuildRight, Cross, isnotnull((ASIN(SQRT((POWER(SIN(((RADIANS(station_lat#70) - RADIANS(crime_lat#254)) / 2.0)), 2.0) + ((COS(RADIANS(crime_lat#254)) * COS(RADIANS(station_lat#70))) * POWER(SIN(((RADIANS(station_lon#63) - RADIANS(crime_lon#255)) / 2.0)), 2.0))))) * 12742.0))
+                                    :- Union
+                                    :  :- Project [DR_NO#293, cast(LAT#319 as double) AS crime_lat#254, cast(LON#320 as double) AS crime_lon#255]
+                                    :  :  +- Filter (((((isnotnull(LAT#319) AND isnotnull(LON#320)) AND isnotnull(cast(LAT#319 as double))) AND isnotnull(cast(LON#320 as double))) AND (NOT (cast(LAT#319 as double) = 0.0) OR NOT (cast(LON#320 as double) = 0.0))) AND isnotnull(DR_NO#293))
+                                    :  :     +- FileScan csv [DR_NO#293,LAT#319,LON#320] Batched: false, DataFilters: [isnotnull(LAT#319), isnotnull(LON#320), isnotnull(cast(LAT#319 as double)), isnotnull(cast(LON#3..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), IsNotNull(DR_NO)], ReadSchema: struct<DR_NO:string,LAT:string,LON:string>
+                                    :  +- Project [DR_NO#321, cast(LAT#347 as double) AS crime_lat#577, cast(LON#348 as double) AS crime_lon#578]
+                                    :     +- Filter (((((isnotnull(LAT#347) AND isnotnull(LON#348)) AND isnotnull(cast(LAT#347 as double))) AND isnotnull(cast(LON#348 as double))) AND (NOT (cast(LAT#347 as double) = 0.0) OR NOT (cast(LON#348 as double) = 0.0))) AND isnotnull(DR_NO#321))
+                                    :        +- FileScan csv [DR_NO#321,LAT#347,LON#348] Batched: false, DataFilters: [isnotnull(LAT#347), isnotnull(LON#348), isnotnull(cast(LAT#347 as double)), isnotnull(cast(LON#3..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), IsNotNull(DR_NO)], ReadSchema: struct<DR_NO:string,LAT:string,LON:string>
+                                    +- BroadcastExchange IdentityBroadcastMode, [plan_id=1100]
+                                       +- Project [cast(X#349 as double) AS station_lon#63, cast(Y#350 as double) AS station_lat#70, DIVISION#352 AS division#41]
+                                          +- FileScan csv [X#349,Y#350,DIVISION#352] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_P..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<X:string,Y:string,DIVISION:string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
