@@ -1,8 +1,8 @@
-Shuffle Hash Join Execution Time: 19.43 sec
-Shuffle Hash Join Execution Time: 20.87 sec
-Shuffle Hash Join Execution Time: 19.77 sec
-Shuffle Hash Join Execution Time: 23.12 sec
-Shuffle Hash Join Execution Time: 23.02 sec
+Shuffle Replicate NL Join Execution Time: 63.59 sec
+Shuffle Replicate NL Join Execution Time: 87.50 sec
+Shuffle Replicate NL Join Execution Time: 62.85 sec
+Shuffle Replicate NL Join Execution Time: 89.66 sec
+Shuffle Replicate NL Join Execution Time: 73.91 sec
 
 MO Code    | Description                                        | Frequency
 --------------------------------------------------------------------------------
@@ -316,10 +316,10 @@ MO Code    | Description                                        | Frequency
 0508       | Hit victim prior, during, after act                | 628
 0542       | Orders victim to undress                           | 625
 0911       | Revenge                                            | 624
-1316       | Victim entering their vehicle                      | 617
 1536       | Bias: Anti-Gay (Male)                              | 617
-0540       | Suspect puts finger(s) in victim's rectum          | 609
+1316       | Victim entering their vehicle                      | 617
 1528       | Bias: Anti-Jewish                                  | 609
+0540       | Suspect puts finger(s) in victim's rectum          | 609
 0201       | Bag                                                | 608
 2040       | Threats via Social Media                           | 603
 0373       | Physicall disabled/in wheelchair                   | 600
@@ -432,8 +432,8 @@ MO Code    | Description                                        | Frequency
 0511       | Masochism/bondage                                  | 184
 1410       | Gun Shot Residue                                   | 184
 0328       | Used toilet                                        | 182
-0364       | Suspect is babysitter                              | 181
 1510       | Bias: Anti-Transgender                             | 181
+0364       | Suspect is babysitter                              | 181
 0317       | Pillowcase/suitcase                                | 174
 2019       | Theft of animal (non-livestock)                    | 172
 2020       | Mistreatment of animal                             | 172
@@ -445,8 +445,8 @@ MO Code    | Description                                        | Frequency
 0117       | Salesman                                           | 160
 2030       | Victim used racial slurs                           | 160
 1520       | Bias: Anti-White                                   | 157
-1220       | Partially Nude                                     | 153
 1513       | Bias: Anti-Asian                                   | 153
+1220       | Partially Nude                                     | 153
 1911       | Theft of computer data                             | 152
 0320       | Quiet polite                                       | 151
 0439       | Tape/Electrical etc...                             | 151
@@ -461,8 +461,8 @@ MO Code    | Description                                        | Frequency
 1209       | Salesman, Jewelry                                  | 136
 0437       | Flexcuffs/Plastic Tie                              | 134
 0938       | Animal Neglect                                     | 133
-0521       | Tongue or mouth to anus                            | 133
 1519       | Bias: Anti-Other Race/Ethnicity/Ancestry           | 133
+0521       | Tongue or mouth to anus                            | 133
 1907       | Hate Crime materials/printouts/e-mails             | 131
 2031       | Victim used hate-related language                  | 131
 0912       | Insurance                                          | 123
@@ -495,8 +495,8 @@ MO Code    | Description                                        | Frequency
 1539       | Bias: Anti-Lesbian/Gay/Bisexual or Transgender (Mixed Group) | 88
 1417       | Semen                                              | 86
 0539       | Suspect puts hand in victim's rectum               | 84
-1002       | Amusement                                          | 82
 0535       | Suspect asks minor's name                          | 82
+1002       | Amusement                                          | 82
 0425       | Tortured                                           | 81
 1303       | Hid in rear seat                                   | 81
 2043       | Victim is owner of short-term vacation rental      | 80
@@ -544,8 +544,8 @@ MO Code    | Description                                        | Frequency
 0103       | Physically disabled                                | 43
 0502       | Fecal Fetish                                       | 43
 0435       | Chain                                              | 42
-2015       | Suspect was Foster child                           | 42
 1254       | Train Operator                                     | 42
+2015       | Suspect was Foster child                           | 42
 1512       | Bias: Anti-Arab                                    | 41
 1015       | Gift                                               | 40
 1909       | Introduction of virus or contaminants into computer system/program | 39
@@ -558,17 +558,17 @@ MO Code    | Description                                        | Frequency
 0441       | Wire                                               | 36
 2057       | Victim targeted based on disability                | 36
 1411       | Hair                                               | 35
+1526       | Bias: Anti-Islamic (Muslim)                        | 34
 1207       | Hitchhiker                                         | 34
 0428       | Dismembered                                        | 34
-1526       | Bias: Anti-Islamic (Muslim)                        | 34
 1418       | Skeleton/Bones                                     | 32
-1280       | Victim was Foster parent                           | 29
 2008       | In possession of a Ballistic vest                  | 29
+1280       | Victim was Foster parent                           | 29
 0434       | Bed Sheets/Linens                                  | 28
 0107       | God                                                | 27
 0210       | Make up (males only)                               | 27
-1904       | Denial of computer services                        | 26
 1531       | Bias: Anti-Other Christian                         | 26
+1904       | Denial of computer services                        | 26
 2025       | Suspect was Bisexual                               | 25
 0123       | Gardener/Tree Trimmer                              | 24
 2012       | Suspect was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 24
@@ -576,8 +576,8 @@ MO Code    | Description                                        | Frequency
 0524       | Underwear Fetish                                   | 23
 1014       | Game                                               | 23
 1517       | Bias: Anti-Multiple Races (Group)                  | 22
-0937       | Cock Fighting                                      | 21
 2039       | Victim was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 21
+0937       | Cock Fighting                                      | 21
 1509       | Bias: Anti-Gender non-conforming                   | 20
 0108       | Infirm                                             | 18
 0939       | Animal Hoarding                                    | 16
@@ -588,37 +588,37 @@ MO Code    | Description                                        | Frequency
 1269       | Victim was armored car driver                      | 14
 0604       | Reproductive Health Services/Facilities            | 14
 1025       | Train                                              | 13
-1505       | Bias: Mental Disability                            | 13
 1523       | Bias: Anti-Catholic                                | 13
 1515       | Bias: Anti-Citizenship Status                      | 13
+1505       | Bias: Mental Disability                            | 13
+1264       | Pipeline                                           | 12
 2013       | Tour Bus/Van Operator                              | 12
 1535       | Bias: Anti-Bisexual                                | 12
-1264       | Pipeline                                           | 12
 1527       | Bias: Anti-Jehovah's Witness                       | 10
+2045       | Suspect is owner of short-term vacation rental     | 8
 1005       | Audition                                           | 8
 2022       | Suspect was Hitchhiker                             | 8
-2045       | Suspect is owner of short-term vacation rental     | 8
-1525       | Bias: Anti-Hindu                                   | 7
 0116       | Satan                                              | 7
+1525       | Bias: Anti-Hindu                                   | 7
 1508       | Bias: Anti-male                                    | 7
-1024       | Teach                                              | 6
-1530       | Bias: Anti-Multiple Religions Group                | 6
-1522       | Bias: Anti-Buddhist                                | 6
 0367       | Was Transit Patrol                                 | 6
+1530       | Bias: Anti-Multiple Religions Group                | 6
 1006       | Bless                                              | 6
+1522       | Bias: Anti-Buddhist                                | 6
+1024       | Teach                                              | 6
 1511       | Bias: Anti-American/Alaskan Native                 | 5
 1003       | appraise                                           | 4
-0941       | Non-Revocable Parole (NRP)                         | 4
-2016       | Suspect was Train Operator                         | 4
 1023       | Subscriptions                                      | 4
-1533       | Bias: Anti-Protestant                              | 3
+2016       | Suspect was Train Operator                         | 4
+0941       | Non-Revocable Parole (NRP)                         | 4
 1518       | Bias: Anti-Native Hawaiian or Other Pacific Islander | 3
 1537       | Bias: Anti-Heterosexual                            | 3
+1533       | Bias: Anti-Protestant                              | 3
 1263       | Agricultural Target                                | 2
-1534       | Bias: Anti-Sikh                                    | 1
-1521       | Bias: Anti-Atheism/Agnosticism                     | 1
-0548       | Suspect gives victim douche/enema                  | 1
 1524       | Bias: Anti-Eastern Orthodox (Russian/Greek/Other)  | 1
+0548       | Suspect gives victim douche/enema                  | 1
+1521       | Bias: Anti-Atheism/Agnosticism                     | 1
+1534       | Bias: Anti-Sikh                                    | 1
 
 == Parsed Logical Plan ==
 'Sort ['Frequency DESC NULLS LAST], true
@@ -633,11 +633,12 @@ MO Code    | Description                                        | Frequency
             :           :- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
             :           +- Project [DR_NO#103, Date Rptd#104, DATE OCC#105, TIME OCC#106, AREA#107, AREA NAME#108, Rpt Dist No#109, Part 1-2#110, Crm Cd#111, Crm Cd Desc#112, Mocodes#113, Vict Age#114, Vict Sex#115, Vict Descent#116, Premis Cd#117, Premis Desc#118, Weapon Used Cd#119, Weapon Desc#120, Status#121, Status Desc#122, Crm Cd 1#123, Crm Cd 2#124, Crm Cd 3#125, Crm Cd 4#126, ... 4 more fields]
             :              +- Relation [DR_NO#103,Date Rptd#104,DATE OCC#105,TIME OCC#106,AREA#107,AREA NAME#108,Rpt Dist No#109,Part 1-2#110,Crm Cd#111,Crm Cd Desc#112,Mocodes#113,Vict Age#114,Vict Sex#115,Vict Descent#116,Premis Cd#117,Premis Desc#118,Weapon Used Cd#119,Weapon Desc#120,Status#121,Status Desc#122,Crm Cd 1#123,Crm Cd 2#124,Crm Cd 3#125,Crm Cd 4#126,... 4 more fields] csv
-            +- Project [MO_Code#194, MO_Desc#198]
-               +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
-                  +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
-                     +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
-                        +- Relation [value#188] text
+            +- ResolvedHint (strategy=shuffle_replicate_nl)
+               +- Project [MO_Code#194, MO_Desc#198]
+                  +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                     +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
+                        +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
+                           +- Relation [value#188] text
 
 == Analyzed Logical Plan ==
 MO_Code: string, MO_Desc: string, Frequency: bigint
@@ -653,19 +654,24 @@ Sort [Frequency#327L DESC NULLS LAST], true
             :           :- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
             :           +- Project [DR_NO#103, Date Rptd#104, DATE OCC#105, TIME OCC#106, AREA#107, AREA NAME#108, Rpt Dist No#109, Part 1-2#110, Crm Cd#111, Crm Cd Desc#112, Mocodes#113, Vict Age#114, Vict Sex#115, Vict Descent#116, Premis Cd#117, Premis Desc#118, Weapon Used Cd#119, Weapon Desc#120, Status#121, Status Desc#122, Crm Cd 1#123, Crm Cd 2#124, Crm Cd 3#125, Crm Cd 4#126, ... 4 more fields]
             :              +- Relation [DR_NO#103,Date Rptd#104,DATE OCC#105,TIME OCC#106,AREA#107,AREA NAME#108,Rpt Dist No#109,Part 1-2#110,Crm Cd#111,Crm Cd Desc#112,Mocodes#113,Vict Age#114,Vict Sex#115,Vict Descent#116,Premis Cd#117,Premis Desc#118,Weapon Used Cd#119,Weapon Desc#120,Status#121,Status Desc#122,Crm Cd 1#123,Crm Cd 2#124,Crm Cd 3#125,Crm Cd 4#126,... 4 more fields] csv
-            +- Project [MO_Code#194, MO_Desc#198]
-               +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
-                  +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
-                     +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
-                        +- Relation [value#188] text
+            +- ResolvedHint (strategy=shuffle_replicate_nl)
+               +- Project [MO_Code#194, MO_Desc#198]
+                  +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                     +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
+                        +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
+                           +- Relation [value#188] text
 
 == Optimized Logical Plan ==
 Sort [Frequency#327L DESC NULLS LAST], true
 +- Aggregate [MO_Code#236, MO_Desc#198], [MO_Code#236, MO_Desc#198, count(1) AS Frequency#327L]
    +- Project [MO_Code#236, MO_Desc#198]
-      +- Join Inner, (MO_Code#236 = MO_Code#194)
+      +- Join Inner, (MO_Code#236 = MO_Code#194), rightHint=(strategy=shuffle_replicate_nl)
          :- Project [trim(MO_Code#206, None) AS MO_Code#236]
-         :  +- Filter NOT (trim(trim(MO_Code#206, None), None) = )
+         :  +- Filter (NOT (trim(trim(MO_Code#206, None), None) = ) AND bloomfilter#331 of [MO_Code#194] filtering [trim(MO_Code#206, None)])
+         :     :  +- Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+         :     :     +- Project [split(value#188,  , 2) AS split_cols#190]
+         :     :        +- Filter ((isnotnull(value#188) AND (isnotnull(split(value#188,  , 2)[1]) AND NOT (trim(split(value#188,  , 2)[1], None) = ))) AND (NOT (trim(split(value#188,  , 2)[0], None) = ) AND isnotnull(split(value#188,  , 2)[0])))
+         :     :           +- Relation [value#188] text
          :     +- Generate explode(split(Mocodes#39,  , -1)), [0], false, [MO_Code#206]
          :        +- Union false, false
          :           :- Project [Mocodes#39]
@@ -680,45 +686,42 @@ Sort [Frequency#327L DESC NULLS LAST], true
 == Physical Plan ==
 AdaptiveSparkPlan isFinalPlan=true
 +- == Final Plan ==
-   *(4) Sort [Frequency#327L DESC NULLS LAST], true, 0
+   *(5) Sort [Frequency#327L DESC NULLS LAST], true, 0
    +- AQEShuffleRead coalesced
-      +- ShuffleQueryStage 2
-         +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=262]
-            +- *(3) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[count(1)], output=[MO_Code#236, MO_Desc#198, Frequency#327L], schema specialized)
+      +- ShuffleQueryStage 1
+         +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=249]
+            +- *(4) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[count(1)], output=[MO_Code#236, MO_Desc#198, Frequency#327L], schema specialized)
                +- AQEShuffleRead coalesced
-                  +- ShuffleQueryStage 1
-                     +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=222]
-                        +- *(2) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#332L], schema specialized)
-                           +- *(2) Project [MO_Code#236, MO_Desc#198]
-                              +- *(2) BroadcastHashJoin [MO_Code#236], [MO_Code#194], Inner, BuildRight, false
-                                 :- *(2) Project [trim(MO_Code#206, None) AS MO_Code#236]
-                                 :  +- *(2) Filter NOT (trim(trim(MO_Code#206, None), None) = )
-                                 :     +- *(2) Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
+                  +- ShuffleQueryStage 0
+                     +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=200]
+                        +- *(3) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#333L], schema specialized)
+                           +- *(3) Project [MO_Code#236, MO_Desc#198]
+                              +- CartesianProduct (MO_Code#236 = MO_Code#194)
+                                 :- *(1) Project [trim(MO_Code#206, None) AS MO_Code#236]
+                                 :  +- *(1) Filter NOT (trim(trim(MO_Code#206, None), None) = )
+                                 :     +- *(1) Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
                                  :        +- Union
                                  :           :- FileScan csv [Mocodes#39] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
                                  :           +- FileScan csv [Mocodes#113] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
-                                 +- BroadcastQueryStage 0
-                                    +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=145]
-                                       +- *(1) Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
-                                          +- *(1) Project [split(value#188,  , 2) AS split_cols#190]
-                                             +- *(1) Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
-                                                +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>
+                                 +- *(2) Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                                    +- *(2) Project [split(value#188,  , 2) AS split_cols#190]
+                                       +- *(2) Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
+                                          +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>
 +- == Initial Plan ==
    Sort [Frequency#327L DESC NULLS LAST], true, 0
-   +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=108]
+   +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=166]
       +- HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[count(1)], output=[MO_Code#236, MO_Desc#198, Frequency#327L], schema specialized)
-         +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=105]
-            +- HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#332L], schema specialized)
+         +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=164]
+            +- HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#333L], schema specialized)
                +- Project [MO_Code#236, MO_Desc#198]
-                  +- BroadcastHashJoin [MO_Code#236], [MO_Code#194], Inner, BuildRight, false
+                  +- CartesianProduct (MO_Code#236 = MO_Code#194)
                      :- Project [trim(MO_Code#206, None) AS MO_Code#236]
                      :  +- Filter NOT (trim(trim(MO_Code#206, None), None) = )
                      :     +- Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
                      :        +- Union
                      :           :- FileScan csv [Mocodes#39] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
                      :           +- FileScan csv [Mocodes#113] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
-                     +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=100]
-                        +- Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
-                           +- Project [split(value#188,  , 2) AS split_cols#190]
-                              +- Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
-                                 +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>
+                     +- Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                        +- Project [split(value#188,  , 2) AS split_cols#190]
+                           +- Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
+                              +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>
