@@ -1,13 +1,8 @@
-
-Execution time: 28.95 sec
-
-Execution time: 29.76 sec
-
-Execution time: 31.96 sec
-
-Execution time: 28.20 sec
-
-Execution time: 29.52 sec
+Execution time: 21.07 sec
+Execution time: 21.32 sec
+Execution time: 22.53 sec
+Execution time: 21.96 sec
+Execution time: 21.73 sec
 
 MO Code    | Description                                        | Frequency
 --------------------------------------------------------------------------------
@@ -321,10 +316,10 @@ MO Code    | Description                                        | Frequency
 0508       | Hit victim prior, during, after act                | 628
 0542       | Orders victim to undress                           | 625
 0911       | Revenge                                            | 624
-1536       | Bias: Anti-Gay (Male)                              | 617
 1316       | Victim entering their vehicle                      | 617
-1528       | Bias: Anti-Jewish                                  | 609
+1536       | Bias: Anti-Gay (Male)                              | 617
 0540       | Suspect puts finger(s) in victim's rectum          | 609
+1528       | Bias: Anti-Jewish                                  | 609
 0201       | Bag                                                | 608
 2040       | Threats via Social Media                           | 603
 0373       | Physicall disabled/in wheelchair                   | 600
@@ -447,14 +442,14 @@ MO Code    | Description                                        | Frequency
 1248       | Closing business                                   | 166
 0362       | Suspect attempts to carry victim away              | 165
 0451       | Suffocation                                        | 161
-2030       | Victim used racial slurs                           | 160
 0117       | Salesman                                           | 160
+2030       | Victim used racial slurs                           | 160
 1520       | Bias: Anti-White                                   | 157
-1513       | Bias: Anti-Asian                                   | 153
 1220       | Partially Nude                                     | 153
+1513       | Bias: Anti-Asian                                   | 153
 1911       | Theft of computer data                             | 152
-0439       | Tape/Electrical etc...                             | 151
 0320       | Quiet polite                                       | 151
+0439       | Tape/Electrical etc...                             | 151
 0220       | Suspect wore motorcycle helmet                     | 149
 0525       | Urinated                                           | 149
 0323       | Smoked on premises                                 | 146
@@ -466,8 +461,8 @@ MO Code    | Description                                        | Frequency
 1209       | Salesman, Jewelry                                  | 136
 0437       | Flexcuffs/Plastic Tie                              | 134
 0938       | Animal Neglect                                     | 133
-1519       | Bias: Anti-Other Race/Ethnicity/Ancestry           | 133
 0521       | Tongue or mouth to anus                            | 133
+1519       | Bias: Anti-Other Race/Ethnicity/Ancestry           | 133
 1907       | Hate Crime materials/printouts/e-mails             | 131
 2031       | Victim used hate-related language                  | 131
 0912       | Insurance                                          | 123
@@ -484,8 +479,8 @@ MO Code    | Description                                        | Frequency
 0388       | Suspect points laser at plane/helicopter           | 108
 0438       | Rope/Cordage                                       | 103
 0118       | Seeking someone                                    | 103
-1201       | Absent-advertised in paper                         | 99
 1807       | Susp is/was priest/pastor                          | 99
+1201       | Absent-advertised in paper                         | 99
 0208       | Halloween mask                                     | 98
 0547       | Suspect force vict to bathe/clean/wipe             | 97
 0348       | Takeover other                                     | 97
@@ -493,15 +488,15 @@ MO Code    | Description                                        | Frequency
 0523       | Unable to get erection                             | 94
 1001       | Aid for vehicle                                    | 93
 0412       | Disfigured                                         | 92
-0215       | Unusual clothes                                    | 91
 0902       | Political Activity                                 | 91
+0215       | Unusual clothes                                    | 91
 0932       | Suspect uses victim's identity in reporting a traffic collision | 90
-1539       | Bias: Anti-Lesbian/Gay/Bisexual or Transgender (Mixed Group) | 88
 1255       | Followed Transit System                            | 88
+1539       | Bias: Anti-Lesbian/Gay/Bisexual or Transgender (Mixed Group) | 88
 1417       | Semen                                              | 86
 0539       | Suspect puts hand in victim's rectum               | 84
-0535       | Suspect asks minor's name                          | 82
 1002       | Amusement                                          | 82
+0535       | Suspect asks minor's name                          | 82
 0425       | Tortured                                           | 81
 1303       | Hid in rear seat                                   | 81
 2043       | Victim is owner of short-term vacation rental      | 80
@@ -523,10 +518,10 @@ MO Code    | Description                                        | Frequency
 0115       | Returning stolen property                          | 61
 0122       | Contractor                                         | 61
 1224       | Drive-through (not merchant)                       | 60
-0944       | Bait Operation                                     | 60
 2026       | Suspect was Deaf/hearing impaired                  | 60
-0909       | Ritual/Occult                                      | 59
+0944       | Bait Operation                                     | 60
 1245       | Victim was forced into residence                   | 59
+0909       | Ritual/Occult                                      | 59
 1101       | Shots Fired (Animal) - Animal Services             | 57
 0350       | Concealed victim's body                            | 55
 0901       | Organized Crime                                    | 54
@@ -544,28 +539,28 @@ MO Code    | Description                                        | Frequency
 0333       | Used hand held radios                              | 47
 1279       | Victim was Foster child                            | 46
 0544       | Orders victim to fondle self                       | 45
-2059       | Vict rptd sexual assault at time of arst for unrelated incident | 44
 0219       | Mustache-Fake                                      | 44
+2059       | Vict rptd sexual assault at time of arst for unrelated incident | 44
 0103       | Physically disabled                                | 43
 0502       | Fecal Fetish                                       | 43
 0435       | Chain                                              | 42
-2015       | Suspect was Foster child                           | 42
 1254       | Train Operator                                     | 42
+2015       | Suspect was Foster child                           | 42
 1512       | Bias: Anti-Arab                                    | 41
 1015       | Gift                                               | 40
 1909       | Introduction of virus or contaminants into computer system/program | 39
 1232       | Bank, Arriving at                                  | 39
 1244       | Victim was forced into business                    | 38
+0517       | Sadism/Sexual gratification obtained by infliction of physical or mental pain on others | 38
 0214       | Stocking                                           | 38
 1208       | Victim was undocumented alien                      | 38
-0517       | Sadism/Sexual gratification obtained by infliction of physical or mental pain on others | 38
 1532       | Bias: Anti-Other Religion                          | 37
 0441       | Wire                                               | 36
 2057       | Victim targeted based on disability                | 36
 1411       | Hair                                               | 35
 1207       | Hitchhiker                                         | 34
-1526       | Bias: Anti-Islamic (Muslim)                        | 34
 0428       | Dismembered                                        | 34
+1526       | Bias: Anti-Islamic (Muslim)                        | 34
 1418       | Skeleton/Bones                                     | 32
 2008       | In possession of a Ballistic vest                  | 29
 1280       | Victim was Foster parent                           | 29
@@ -576,54 +571,55 @@ MO Code    | Description                                        | Frequency
 1531       | Bias: Anti-Other Christian                         | 26
 2025       | Suspect was Bisexual                               | 25
 1507       | Bias : Anti-female                                 | 24
-2012       | Suspect was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 24
 0123       | Gardener/Tree Trimmer                              | 24
+2012       | Suspect was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 24
 0524       | Underwear Fetish                                   | 23
 1014       | Game                                               | 23
 1517       | Bias: Anti-Multiple Races (Group)                  | 22
-2039       | Victim was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 21
 0937       | Cock Fighting                                      | 21
+2039       | Victim was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 21
 1509       | Bias: Anti-Gender non-conforming                   | 20
 0108       | Infirm                                             | 18
 0939       | Animal Hoarding                                    | 16
-1506       | Bias: Physical disability                          | 16
 1016       | Hold for safekeeping                               | 16
-0936       | Dog Fighting                                       | 15
+1506       | Bias: Physical disability                          | 16
 0905       | Terrorist Group                                    | 15
-1269       | Victim was armored car driver                      | 14
+0936       | Dog Fighting                                       | 15
 0604       | Reproductive Health Services/Facilities            | 14
+1269       | Victim was armored car driver                      | 14
 1025       | Train                                              | 13
-1505       | Bias: Mental Disability                            | 13
 1523       | Bias: Anti-Catholic                                | 13
 1515       | Bias: Anti-Citizenship Status                      | 13
+1505       | Bias: Mental Disability                            | 13
 1264       | Pipeline                                           | 12
 1535       | Bias: Anti-Bisexual                                | 12
 2013       | Tour Bus/Van Operator                              | 12
 1527       | Bias: Anti-Jehovah's Witness                       | 10
+1005       | Audition                                           | 8
 2022       | Suspect was Hitchhiker                             | 8
 2045       | Suspect is owner of short-term vacation rental     | 8
-1005       | Audition                                           | 8
 1525       | Bias: Anti-Hindu                                   | 7
-1508       | Bias: Anti-male                                    | 7
 0116       | Satan                                              | 7
+1508       | Bias: Anti-male                                    | 7
 1006       | Bless                                              | 6
-1530       | Bias: Anti-Multiple Religions Group                | 6
 1024       | Teach                                              | 6
+1530       | Bias: Anti-Multiple Religions Group                | 6
 1522       | Bias: Anti-Buddhist                                | 6
 0367       | Was Transit Patrol                                 | 6
 1511       | Bias: Anti-American/Alaskan Native                 | 5
-0941       | Non-Revocable Parole (NRP)                         | 4
 1003       | appraise                                           | 4
 1023       | Subscriptions                                      | 4
 2016       | Suspect was Train Operator                         | 4
-1537       | Bias: Anti-Heterosexual                            | 3
+0941       | Non-Revocable Parole (NRP)                         | 4
 1518       | Bias: Anti-Native Hawaiian or Other Pacific Islander | 3
+1537       | Bias: Anti-Heterosexual                            | 3
 1533       | Bias: Anti-Protestant                              | 3
 1263       | Agricultural Target                                | 2
+0548       | Suspect gives victim douche/enema                  | 1
 1524       | Bias: Anti-Eastern Orthodox (Russian/Greek/Other)  | 1
 1521       | Bias: Anti-Atheism/Agnosticism                     | 1
-0548       | Suspect gives victim douche/enema                  | 1
 1534       | Bias: Anti-Sikh                                    | 1
+
 
 === Catalyst default join (Execution Plan) ===
 == Parsed Logical Plan ==

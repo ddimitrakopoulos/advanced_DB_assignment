@@ -1,0 +1,724 @@
+Shuffle Hash Join Execution Time: 19.43 sec
+Shuffle Hash Join Execution Time: 20.87 sec
+Shuffle Hash Join Execution Time: 19.77 sec
+Shuffle Hash Join Execution Time: 23.12 sec
+Shuffle Hash Join Execution Time: 23.02 sec
+
+MO Code    | Description                                        | Frequency
+--------------------------------------------------------------------------------
+0344       | Removes vict property                              | 1002900
+1822       | Stranger                                           | 548422
+0416       | Hit-Hit w/ weapon                                  | 404773
+0329       | Vandalized                                         | 377536
+0913       | Victim knew Suspect                                | 278618
+2000       | Domestic violence                                  | 256188
+1300       | Vehicle involved                                   | 219082
+0400       | Force used                                         | 213165
+1402       | Evidence Booked (any crime)                        | 177470
+1609       | Smashed                                            | 131229
+1309       | Susp uses vehicle                                  | 122108
+1202       | Victim was aged (60 & over) or blind/physically disabled/unable to care for self | 120238
+0325       | Took merchandise                                   | 120159
+1814       | Susp is/was current/former boyfriend/girlfriend    | 118073
+0444       | Pushed                                             | 116763
+1501       | Other MO (see rpt)                                 | 115589
+1307       | Breaks window                                      | 113609
+0334       | Brandishes weapon                                  | 105665
+2004       | Suspect is homeless/transient                      | 93426
+0432       | Intimidation                                       | 83562
+0342       | Multi-susps overwhelm                              | 81230
+0421       | Threaten to kill                                   | 81036
+0906       | Gangs                                              | 78910
+0429       | Vict knocked to ground                             | 77442
+1813       | Susp is/was current/former spouse/co-habitant      | 76688
+0377       | Takes vict's identification/driver license         | 75529
+0321       | Ransacked                                          | 72398
+1606       | Open/unlocked                                      | 71874
+0448       | Grabbed                                            | 70142
+1607       | Pried                                              | 68012
+0358       | Forces Entry                                       | 67791
+1251       | Victim was a student                               | 67324
+0352       | Took Victim's clothing or jewelry                  | 64413
+0446       | Suspect swung fist                                 | 62226
+0100       | Suspect Impersonate                                | 62021
+0930       | Unauthorized use of victim's credit/debit card or number | 54810
+0417       | Kicked                                             | 49317
+0443       | Threaten to harm victim (other than kill)          | 49182
+1601       | Bodily Force                                       | 46968
+0319       | Profanity Used                                     | 45655
+1414       | Photographs                                        | 44327
+0302       | Aimed gun                                          | 44178
+1218       | Victim was Homeless/Transient                      | 42072
+0385       | Suspect removed parts from vehicle                 | 41926
+1259       | Victim is 14 years old thru 17 years old           | 41809
+0216       | Suspect wore hood/hoodie                           | 38316
+1100       | Shots Fired                                        | 37298
+0408       | Choked/uses choke hold/Strangulation               | 37019
+0305       | Attacks from rear                                  | 34614
+1310       | Victim in vehicle                                  | 34255
+1243       | Co-habitants                                       | 33283
+1258       | Victim is 6 years old thru 13 years old            | 30566
+2038       | Restraining order in place between suspect and victim | 30241
+0603       | Landlord/Tenant/Neighbor                           | 29957
+2002       | Suspect intoxicated/drunk                          | 29777
+0104       | Customer                                           | 29527
+0447       | Suspect threw object at victim                     | 29421
+0419       | Pulled victims hair                                | 29175
+0445       | Suspect swung weapon                               | 28702
+0910       | Public Transit (Metrolink/Train Station,Metro Rail Red,Line Subway Station, Metro Rail Blue Line Station,adjacent transit parking lots, tracks or tunnels MTA(RTD), and other municipal lines. | 27000
+0928       | Forged or Fraudulent credit applications           | 26810
+1602       | Cutting Tool                                       | 26107
+0337       | Demands money                                      | 25726
+0202       | Cap/hat                                            | 25628
+0411       | Cut/stabbed                                        | 25597
+0394       | Susp takes UPS, Fedex, USPS packages               | 25369
+0355       | Demanded property other than money                 | 25329
+1420       | Video surveillance booked/available                | 25175
+0361       | Suspect is neighbor                                | 24253
+0346       | Snatch property and runs                           | 23955
+0522       | Touched                                            | 23954
+1407       | Bullets/Casings                                    | 23408
+0602       | Family                                             | 23159
+1302       | Suspect forced way into victim's vehicle           | 23045
+0929       | Unauthorized use of victim's bank account information | 21610
+0701       | THEFT: Trick or Device                             | 21149
+1817       | Acquaintance                                       | 21045
+1206       | Under influence drugs/liquor                       | 20668
+0922       | ATM Theft with PIN number                          | 18583
+0430       | Vict shot                                          | 16895
+2032       | Victim left property unattended                    | 16863
+0360       | Suspect is Other Family Member                     | 16325
+0923       | Stolen/Forged Checks (Personal Checks)             | 16306
+1212       | LA Police Officer                                  | 15869
+0500       | Sex related acts                                   | 15613
+0311       | Graffiti                                           | 15529
+0561       | Suspect is Victim's Son                            | 15259
+0371       | Gang affiliation questions asked/made gang statement | 15199
+1906       | Harrassing E-Mail/Text Message/Other Electronic Communications | 15085
+1221       | Missing Clothing/Jewelry                           | 14545
+1236       | Clerk/Employer/Owner                               | 14482
+1605       | Lock slip/key/pick                                 | 13327
+0527       | Actual Intercourse                                 | 13294
+0917       | Victim's Employment                                | 13292
+0401       | Bit                                                | 13049
+0601       | Business                                           | 12641
+1810       | Susp is/was roommate                               | 12437
+0345       | Riding bike                                        | 12104
+0356       | Suspect spits on victim                            | 12100
+1241       | Spouse                                             | 11889
+1266       | Victim was security guard                          | 11714
+0314       | Hot Prowl                                          | 11673
+0397       | Cut lock (to bicycle, gate, etc.                   | 11309
+0800       | BUNCO                                              | 11083
+1608       | Removed                                            | 10988
+0945       | Estes Robbery                                      | 10951
+2024       | Suspect was Juvenile                               | 10831
+0378       | Brings own bag                                     | 10761
+0554       | Suspect is Victim's Brother                        | 10759
+1816       | Suspect is/was known gang member                   | 10437
+0326       | Used driver                                        | 9971
+0450       | Suspect shot at victim (no hits)                   | 9856
+1821       | Spouse                                             | 9824
+1820       | Friend                                             | 9809
+0552       | Suspect is Victim's Father                         | 9593
+1257       | Victim is Newborn-5 years old                      | 9497
+0431       | Sprayed with chemical                              | 9466
+2021       | Suspect was Aged (60+over)                         | 9204
+1313       | Suspect exits vehicle and attacks pedestrian       | 8802
+1210       | Professional (doctor, Lawyer, etc.)                | 8668
+0312       | Gun in waistband                                   | 8556
+0369       | Suspect speaks spanish                             | 8468
+0340       | Suspect follows victim/follows victim home         | 8387
+0449       | Put a weapon to body                               | 8327
+0553       | Suspect is Victim's Mother                         | 8046
+0924       | Stolen/Forged Checks (Business Checks)             | 7924
+1912       | Threatening E-mail/Text Messages                   | 7882
+0422       | Threaten Victims family                            | 7643
+1415       | Rape Kit                                           | 7407
+0919       | Road Rage                                          | 7300
+0370       | Frisks victim/pats down victim/searches victim     | 7128
+1419       | Firearm booked as evidence                         | 6989
+0354       | Suspect takes car keys                             | 6764
+0935       | Misc. Stolen/Forged documents                      | 6709
+1803       | Susp is/was victim's employee                      | 6643
+0209       | Mask                                               | 6532
+2003       | Suspect was 5150/mentally disabled                 | 6523
+1815       | Susp was student                                   | 6503
+0529       | Indecent Exposure                                  | 6290
+0336       | Chain snatch                                       | 6227
+0327       | Used lookout                                       | 6198
+2034       | Victim was asleep/unconscious                      | 6051
+1240       | Vehicle occupant/Passenger                         | 5953
+0562       | Suspect is Victim's Daughter                       | 5653
+0907       | Narcotics (Buy-Sell-Rip)                           | 5589
+0515       | Put hand, finger or object into vagina             | 5537
+1312       | Suspect follows victim in vehicle                  | 5533
+0503       | Fondle victim                                      | 5407
+0537       | Suspect removes victim's clothing                  | 5293
+0551       | Suspect touches victim genitalia/genitals over clothing | 5277
+0510       | Kissed victims body/face                           | 5267
+2033       | Victim refused to cooperate w/investigation        | 5169
+0386       | Suspect removed property from trunk of vehicle     | 5165
+2001       | Suspect on drugs                                   | 5099
+0903       | Hatred/Prejudice                                   | 5016
+2028       | Suspect was Repeat/known shoplifter                | 5006
+0330       | Victims vehicle taken                              | 4894
+0533       | Consentual Sex                                     | 4771
+0359       | Made unusual statement                             | 4700
+0605       | Traffic Accident/Traffic related incident          | 4613
+0916       | Forced theft of vehicle (Car-Jacking)              | 4581
+0324       | Takes money from register                          | 4567
+1612       | Punched/Pulled Door Lock                           | 4384
+1802       | Susp is/was victim's co-worker                     | 4374
+0418       | Kidnapped                                          | 4262
+0349       | Takes mail                                         | 4241
+0528       | Masturbate                                         | 3930
+1409       | Clothes                                            | 3927
+0555       | Suspect is Victim's Sister                         | 3849
+0206       | Gloves                                             | 3705
+1019       | Money                                              | 3346
+1276       | Pregnant                                           | 3322
+0507       | Forced to orally copulate suspect                  | 3287
+0309       | Drive-by shooting                                  | 3216
+0519       | Sodomy                                             | 3105
+1275       | Vacant Residence/Building                          | 3070
+1242       | Parent                                             | 2950
+0531       | Suspect made sexually suggestive remarks           | 2942
+1823       | Brief encounter/Date                               | 2939
+1824       | Classmate                                          | 2854
+1403       | Fingerprints                                       | 2818
+1237       | Victim was customer                                | 2752
+0536       | Suspect removes own clothing                       | 2682
+0512       | Orally copulated victim                            | 2603
+2052       | Suspect was passenger on train                     | 2589
+0420       | Searched                                           | 2585
+0558       | Suspect is Victim's Uncle                          | 2541
+0556       | Suspect is Victim's Step-Father                    | 2535
+0390       | Purse snatch                                       | 2492
+1238       | Victim was physically disabled                     | 2456
+1270       | Victim was gang member                             | 2449
+1203       | Victim of crime past 12 months                     | 2440
+1913       | Suspect meets victim on internet/chatroom          | 2410
+0516       | Reached climax/ejaculated                          | 2407
+1223       | Riding bike                                        | 2379
+0316       | Makes victim give money                            | 2374
+0347       | Stalks vict                                        | 2338
+0380       | Distracts Victim                                   | 2308
+0353       | Weapon Concealed                                   | 2305
+2049       | Victim was passenger on bus                        | 2285
+0315       | Jumped counter/goes behind counter                 | 2284
+1311       | Victim removed from vehicle                        | 2282
+2051       | Suspect was passenger on bus                       | 2272
+1900       | Auction Fraud/eBay/cragslist,etc. (Internet based theft) | 2260
+1701       | Elder Abuse/Physical                               | 2183
+1267       | Home under construction                            | 2166
+0532       | Suspect undressed victim                           | 2155
+1000       | Suspects offers/solicits                           | 2123
+0213       | Ski mask                                           | 1950
+1216       | Sales                                              | 1946
+1268       | Victim was 5150/Mental Illness                     | 1918
+9999       | Indistinctive MO                                   | 1901
+0389       | Knock-knock                                        | 1893
+1205       | On Vacation/Tourist                                | 1847
+0908       | Prostitution                                       | 1837
+1305       | Victim forced into vehicle                         | 1829
+2055       | Victim targeted based on Race/Ethnicity/Ancestry   | 1796
+1252       | Victim was a street vendor                         | 1793
+1278       | Victim was Uber/Lyft driver                        | 1788
+0375       | Removes cash register                              | 1729
+1222       | Victim was gay                                     | 1693
+2048       | Victim was on transit platform                     | 1677
+0925       | Stolen/Forged Checks (Cashier's Checks)            | 1628
+2050       | Victim was passenger on train                      | 1619
+0940       | Met online/Chat Room/on Party Line                 | 1608
+0931       | Counterfeit or forged real estate documents        | 1578
+0914       | Other Felony                                       | 1556
+0545       | Male Victim of sexual assault                      | 1507
+0509       | Hugged                                             | 1490
+0382       | Removed money/property from safe                   | 1466
+1916       | Victim paid by wire transfer                       | 1460
+1801       | Susp is/was mother's boyfriend                     | 1443
+1804       | Susp is/was victim's employer                      | 1413
+0409       | Cover mouth w/hands                                | 1408
+0381       | Suspect apologizes                                 | 1407
+0404       | Bomb Threat, no bomb                               | 1406
+0306       | Crime on upper floor                               | 1401
+1811       | Susp is/was victim's teacher/coach                 | 1361
+0363       | Home invasion                                      | 1357
+1818       | Caretaker/care-giver/nanny                         | 1348
+0926       | Forged or Telephonic Prescription                  | 1343
+2047       | Victim was injured requiring transportation away from scene for medical reasons | 1330
+0308       | Demands jewelry                                    | 1322
+0387       | Weapon (other than gun) in waistband               | 1310
+1914       | Unauthorized access to computer system             | 1295
+0207       | Handkerchief                                       | 1290
+1317       | Victim exiting their vehicle                       | 1254
+1413       | Paint                                              | 1208
+1915       | Internet Extortion                                 | 1199
+0304       | Ate/drank on premises                              | 1189
+1262       | Raped while unconscious                            | 1175
+1217       | Teenager(Use if victim's age is unknown)           | 1153
+2014       | Suspect was Uber/Lyft driver                       | 1141
+0520       | Solicited/offered immoral act                      | 1140
+1306       | Victim parking, garaging vehicle                   | 1128
+0943       | Human Trafficking                                  | 1108
+1022       | Ride                                               | 1107
+1234       | Bar Customer                                       | 1105
+0413       | Drugged                                            | 1105
+2007       | Suspect was gay                                    | 1071
+1008       | Cigarette                                          | 1071
+1256       | Patron                                             | 1066
+1026       | Use the phone or toilet                            | 1059
+1215       | Prostitute                                         | 1050
+0526       | Utilized Condom                                    | 1044
+0514       | Pornography                                        | 1034
+1231       | Taxi Driver                                        | 1028
+1253       | Bus Driver                                         | 996
+1261       | Victim was mentally challenged/mentally disabled   | 992
+1213       | LA Fireman                                         | 984
+1281       | Victim was Pistol-whipped                          | 962
+1610       | Tunneled                                           | 959
+0406       | Brutal Assault                                     | 957
+0112       | Police                                             | 925
+0351       | Disabled Security                                  | 915
+1247       | Opening business                                   | 913
+1805       | Susp is/was fellow gang member                     | 910
+1514       | Bias: AntI-Black or African American               | 910
+0374       | Gang signs/threw gang signs using hands            | 908
+0341       | Makes vict lie down                                | 904
+0339       | Disables video camera                              | 903
+1227       | Delivery person                                    | 900
+2060       | Victim inside tent                                 | 874
+0501       | Susp ejaculated outside victim                     | 871
+2035       | Racial slurs                                       | 867
+0407       | Burned Victim                                      | 861
+0426       | Twisted arm                                        | 832
+1020       | Narcotics                                          | 814
+1271       | Victim was Law Enforcement (not LAPD)              | 800
+1401       | Blood Stains                                       | 787
+2036       | Hate-related language                              | 773
+0538       | Suspect fondles self                               | 770
+2018       | Cannabis related                                   | 761
+2054       | Victim targeted based on sexual orientation        | 736
+1017       | Information                                        | 729
+1304       | Stopped victim vehicle by flagging down, forcing T/A, etc. | 727
+1819       | Common-law Spouse                                  | 715
+0921       | Hate Incident                                      | 708
+0942       | Party/Flier party/Rave Party                       | 708
+2006       | Suspect was transgender                            | 707
+1308       | Drives by and snatches property                    | 702
+0338       | Disables Telephone                                 | 701
+2053       | Victim targeted based on religion                  | 676
+1273       | Home was being fumigated                           | 672
+0513       | Photographed victim                                | 645
+0368       | Suspect speaks foreign language                    | 642
+2041       | Harassment via Social Media                        | 635
+0508       | Hit victim prior, during, after act                | 628
+0542       | Orders victim to undress                           | 625
+0911       | Revenge                                            | 624
+1316       | Victim entering their vehicle                      | 617
+1536       | Bias: Anti-Gay (Male)                              | 617
+0540       | Suspect puts finger(s) in victim's rectum          | 609
+1528       | Bias: Anti-Jewish                                  | 609
+0201       | Bag                                                | 608
+2040       | Threats via Social Media                           | 603
+0373       | Physicall disabled/in wheelchair                   | 600
+1239       | Transgender                                        | 590
+1318       | Suspect follows victim home                        | 587
+0372       | Photographed victim/took pictures of victim        | 575
+1611       | Shaved Key                                         | 574
+1809       | Susp is/was rival gang member                      | 569
+0335       | Cases location                                     | 558
+2029       | Victim used profanity                              | 554
+1214       | Banking, ATM                                       | 548
+1812       | Susp is/was foster parent/sibling                  | 547
+1009       | Directions                                         | 545
+1225       | Stop sign/light                                    | 543
+0332       | Mailbox Vandalism                                  | 539
+0307       | Defecated/urinated                                 | 534
+0398       | Roof access (remove A/C, equip, etc.)              | 519
+1018       | Liquor                                             | 518
+1516       | Bias: Anti-Hispanic or Latino                      | 509
+0927       | Fraudulent or forged school loan                   | 505
+2005       | Suspect uses wheelchair                            | 496
+1702       | Elder Abuse/Financial                              | 495
+0505       | Forced to fondle suspect                           | 490
+0559       | Suspect is Victim's Aunt                           | 489
+0410       | Covered victim's face                              | 480
+0121       | DWP/Gas Company/Utility worker                     | 475
+0212       | Nude/partly nude                                   | 466
+1902       | Credit Card Fraud/Theft of services via internet   | 460
+0424       | Tore clothes off victim                            | 455
+0550       | Suspect licks victim                               | 453
+1416       | Saliva                                             | 453
+0120       | Social Security/Medicare                           | 450
+1314       | Victim loading vehicle                             | 449
+0383       | Suspect entered during open house/party/estate/yard sale | 447
+0303       | Ambushed                                           | 446
+1808       | Susp is/was other religious confidant              | 434
+0357       | Cuts or breaks purse strap                         | 433
+0403       | Bomb Threat, Bomb found                            | 432
+0534       | Suspect in vehicle nude/partially nude             | 429
+0915       | Parolee                                            | 419
+1265       | Mailbox                                            | 413
+2037       | Temporary/Vacation rental (AirBnB, etc)            | 405
+0541       | Suspect puts object(s) in victim's rectum          | 404
+0934       | Suspect uses victim's identity when receiving a citation | 404
+0365       | Takeover robbery                                   | 401
+0322       | Smashed display case                               | 372
+1204       | Moving                                             | 371
+1908       | Identity Theft via computer                        | 368
+0506       | Forced to masturbate suspect                       | 358
+2027       | Suspect was Pregnant                               | 357
+1604       | Lock Box                                           | 353
+1260       | Deaf/Hearing Impaired                              | 349
+1408       | Bite Marks                                         | 349
+0518       | Simulated intercourse                              | 349
+1315       | Victim unloading vehicle                           | 342
+0405       | Bound                                              | 340
+0399       | Vehicle to Vehicle shooting                        | 335
+0918       | Career Criminal                                    | 332
+0947       | Motorized Rental Scooter/Bike (Bird, Lime, etc).   | 329
+0343       | Orders vict to rear room                           | 327
+0384       | Suspect removed drugs from location                | 317
+0366       | Ordered vict to open safe                          | 310
+0504       | Forced to disrobe                                  | 308
+0391       | Used demand note                                   | 303
+1903       | Cyberstalking (Stalking using internet to commit the crime) | 303
+1013       | Food                                               | 302
+1230       | Postal employee                                    | 302
+0433       | Makes victim kneel                                 | 296
+0379       | Turns off lights/electricity                       | 294
+1901       | Child Pornography/In possession of/Via computer    | 292
+1219       | Nude                                               | 287
+1405       | Left Note                                          | 280
+1028       | Suspect solicits time of day                       | 278
+0110       | Involved in traffic/accident                       | 266
+0415       | Handcuffed/Metal                                   | 264
+2009       | Suspect was Inmate/Incarcerated                    | 264
+0217       | Uniform                                            | 262
+0301       | Escaped on (used) transit train                    | 262
+0442       | Active Shooter/Armed person who has used deadly physical force on other | 261
+1301       | Forced victim vehicle to curb                      | 259
+1027       | Change                                             | 258
+0933       | Suspect uses victim's identity when arrested       | 258
+0101       | Aid victim                                         | 257
+0113       | Renting                                            | 256
+0200       | Suspect wore disguise                              | 256
+2011       | Vendor (street or sidewalk)                        | 254
+1404       | Footprints                                         | 252
+0549       | Suspect ejaculates in victims mouth                | 251
+0392       | False Emergency Reporting                          | 243
+1603       | Knob Twist                                         | 243
+0114       | Repair Person                                      | 243
+1004       | Assistant                                          | 238
+0396       | Used paper plates to disguise license number       | 237
+0402       | Blindfolded                                        | 230
+0393       | 911 Abuse                                          | 229
+0310       | Got victim to withdraw savings                     | 225
+1228       | Leaving Business Area                              | 225
+0427       | Whipped                                            | 224
+1011       | Employment                                         | 223
+0543       | Orders victim to fondle suspect                    | 221
+0557       | Suspect is Victim's Step-Mother                    | 212
+2058       | Victim targeted based on Gender Non-conforming     | 211
+1910       | Minor solicited for sex via internet/Known minor   | 207
+0423       | Tied victim to object                              | 206
+0440       | Telephone/Electric Cord                            | 202
+2023       | Suspect was Prostitute                             | 202
+1010       | Drink (not liquor)                                 | 196
+1406       | Tool Marks                                         | 195
+0218       | Wig                                                | 193
+0511       | Masochism/bondage                                  | 184
+1410       | Gun Shot Residue                                   | 184
+0328       | Used toilet                                        | 182
+0364       | Suspect is babysitter                              | 181
+1510       | Bias: Anti-Transgender                             | 181
+0317       | Pillowcase/suitcase                                | 174
+2019       | Theft of animal (non-livestock)                    | 172
+2020       | Mistreatment of animal                             | 172
+1272       | Victim was at/leaving medical/retail/non-retail cannabis location | 171
+0395       | Murder/Suicide                                     | 170
+1248       | Closing business                                   | 166
+0362       | Suspect attempts to carry victim away              | 165
+0451       | Suffocation                                        | 161
+0117       | Salesman                                           | 160
+2030       | Victim used racial slurs                           | 160
+1520       | Bias: Anti-White                                   | 157
+1220       | Partially Nude                                     | 153
+1513       | Bias: Anti-Asian                                   | 153
+1911       | Theft of computer data                             | 152
+0320       | Quiet polite                                       | 151
+0439       | Tape/Electrical etc...                             | 151
+0220       | Suspect wore motorcycle helmet                     | 149
+0525       | Urinated                                           | 149
+0323       | Smoked on premises                                 | 146
+1277       | Gardner                                            | 145
+1226       | Catering Truck Operator                            | 143
+0204       | Clothes of opposite sex                            | 142
+1233       | Bank, Leaving                                      | 140
+1412       | Jewelry                                            | 138
+1209       | Salesman, Jewelry                                  | 136
+0437       | Flexcuffs/Plastic Tie                              | 134
+0938       | Animal Neglect                                     | 133
+0521       | Tongue or mouth to anus                            | 133
+1519       | Bias: Anti-Other Race/Ethnicity/Ancestry           | 133
+1907       | Hate Crime materials/printouts/e-mails             | 131
+2031       | Victim used hate-related language                  | 131
+0912       | Insurance                                          | 123
+0376       | Makes victim kneel                                 | 122
+0414       | Gagged                                             | 119
+2042       | Victim staying at short-term vacation rental       | 119
+0560       | Suspect is Victim's Guardian                       | 117
+0313       | Hid in building                                    | 113
+1274       | Victim was Inmate/Incarcerated                     | 112
+0105       | Delivery                                           | 109
+1211       | Public Official                                    | 109
+1235       | Bisexual/sexually oriented towards both sexes      | 108
+0388       | Suspect points laser at plane/helicopter           | 108
+1806       | Susp is/was father's girlfriend                    | 108
+0438       | Rope/Cordage                                       | 103
+0118       | Seeking someone                                    | 103
+1807       | Susp is/was priest/pastor                          | 99
+1201       | Absent-advertised in paper                         | 99
+0208       | Halloween mask                                     | 98
+0547       | Suspect force vict to bathe/clean/wipe             | 97
+0348       | Takeover other                                     | 97
+2056       | Victim targeted based on gender                    | 95
+0523       | Unable to get erection                             | 94
+1001       | Aid for vehicle                                    | 93
+0412       | Disfigured                                         | 92
+0902       | Political Activity                                 | 91
+0215       | Unusual clothes                                    | 91
+0932       | Suspect uses victim's identity in reporting a traffic collision | 90
+1255       | Followed Transit System                            | 88
+1539       | Bias: Anti-Lesbian/Gay/Bisexual or Transgender (Mixed Group) | 88
+1417       | Semen                                              | 86
+0539       | Suspect puts hand in victim's rectum               | 84
+1002       | Amusement                                          | 82
+0535       | Suspect asks minor's name                          | 82
+0425       | Tortured                                           | 81
+1303       | Hid in rear seat                                   | 81
+2043       | Victim is owner of short-term vacation rental      | 80
+0946       | Gang Feud                                          | 79
+0109       | Inspector                                          | 77
+0436       | Clothing                                           | 77
+0318       | Prepared exit                                      | 76
+1021       | Repair                                             | 75
+0530       | Used lubricant                                     | 74
+0205       | Earring                                            | 72
+1007       | Candy                                              | 71
+0102       | Blind                                              | 68
+2017       | Suspect was MTA Bus Driver                         | 66
+2044       | Suspect staying at short-term vacation rental      | 65
+1538       | Bias: Anti-Lesbian                                 | 64
+0331       | Mailbox Bombing                                    | 62
+2046       | Suspect damaged property equal to or exceeding $25,000 | 62
+0203       | Cloth (with eyeholes)                              | 61
+0115       | Returning stolen property                          | 61
+0122       | Contractor                                         | 61
+1224       | Drive-through (not merchant)                       | 60
+0944       | Bait Operation                                     | 60
+2026       | Suspect was Deaf/hearing impaired                  | 60
+1245       | Victim was forced into residence                   | 59
+0909       | Ritual/Occult                                      | 59
+1101       | Shots Fired (Animal) - Animal Services             | 57
+0350       | Concealed victim's body                            | 55
+0901       | Organized Crime                                    | 54
+2010       | Suspect was Jailer/Police Officer                  | 53
+0211       | Shoes                                              | 53
+1012       | Find a job                                         | 53
+0106       | Doctor                                             | 52
+1229       | Making bank drop                                   | 52
+1905       | Destruction of computer data                       | 51
+0119       | Sent by owner                                      | 51
+0904       | Strike/Labor Troubles                              | 50
+0920       | Homeland Security                                  | 50
+0563       | Fetish, Other                                      | 49
+0546       | Susp instructs vict to make certain statements     | 49
+0333       | Used hand held radios                              | 47
+1279       | Victim was Foster child                            | 46
+0544       | Orders victim to fondle self                       | 45
+2059       | Vict rptd sexual assault at time of arst for unrelated incident | 44
+0219       | Mustache-Fake                                      | 44
+0103       | Physically disabled                                | 43
+0502       | Fecal Fetish                                       | 43
+0435       | Chain                                              | 42
+2015       | Suspect was Foster child                           | 42
+1254       | Train Operator                                     | 42
+1512       | Bias: Anti-Arab                                    | 41
+1015       | Gift                                               | 40
+1909       | Introduction of virus or contaminants into computer system/program | 39
+1232       | Bank, Arriving at                                  | 39
+1244       | Victim was forced into business                    | 38
+0517       | Sadism/Sexual gratification obtained by infliction of physical or mental pain on others | 38
+0214       | Stocking                                           | 38
+1208       | Victim was undocumented alien                      | 38
+1532       | Bias: Anti-Other Religion                          | 37
+0441       | Wire                                               | 36
+2057       | Victim targeted based on disability                | 36
+1411       | Hair                                               | 35
+1207       | Hitchhiker                                         | 34
+0428       | Dismembered                                        | 34
+1526       | Bias: Anti-Islamic (Muslim)                        | 34
+1418       | Skeleton/Bones                                     | 32
+1280       | Victim was Foster parent                           | 29
+2008       | In possession of a Ballistic vest                  | 29
+0434       | Bed Sheets/Linens                                  | 28
+0107       | God                                                | 27
+0210       | Make up (males only)                               | 27
+1904       | Denial of computer services                        | 26
+1531       | Bias: Anti-Other Christian                         | 26
+2025       | Suspect was Bisexual                               | 25
+0123       | Gardener/Tree Trimmer                              | 24
+2012       | Suspect was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 24
+1507       | Bias : Anti-female                                 | 24
+0524       | Underwear Fetish                                   | 23
+1014       | Game                                               | 23
+1517       | Bias: Anti-Multiple Races (Group)                  | 22
+0937       | Cock Fighting                                      | 21
+2039       | Victim was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.) | 21
+1509       | Bias: Anti-Gender non-conforming                   | 20
+0108       | Infirm                                             | 18
+0939       | Animal Hoarding                                    | 16
+1016       | Hold for safekeeping                               | 16
+1506       | Bias: Physical disability                          | 16
+0905       | Terrorist Group                                    | 15
+0936       | Dog Fighting                                       | 15
+1269       | Victim was armored car driver                      | 14
+0604       | Reproductive Health Services/Facilities            | 14
+1025       | Train                                              | 13
+1505       | Bias: Mental Disability                            | 13
+1523       | Bias: Anti-Catholic                                | 13
+1515       | Bias: Anti-Citizenship Status                      | 13
+2013       | Tour Bus/Van Operator                              | 12
+1535       | Bias: Anti-Bisexual                                | 12
+1264       | Pipeline                                           | 12
+1527       | Bias: Anti-Jehovah's Witness                       | 10
+1005       | Audition                                           | 8
+2022       | Suspect was Hitchhiker                             | 8
+2045       | Suspect is owner of short-term vacation rental     | 8
+1525       | Bias: Anti-Hindu                                   | 7
+0116       | Satan                                              | 7
+1508       | Bias: Anti-male                                    | 7
+1024       | Teach                                              | 6
+1530       | Bias: Anti-Multiple Religions Group                | 6
+1522       | Bias: Anti-Buddhist                                | 6
+0367       | Was Transit Patrol                                 | 6
+1006       | Bless                                              | 6
+1511       | Bias: Anti-American/Alaskan Native                 | 5
+1003       | appraise                                           | 4
+0941       | Non-Revocable Parole (NRP)                         | 4
+2016       | Suspect was Train Operator                         | 4
+1023       | Subscriptions                                      | 4
+1533       | Bias: Anti-Protestant                              | 3
+1518       | Bias: Anti-Native Hawaiian or Other Pacific Islander | 3
+1537       | Bias: Anti-Heterosexual                            | 3
+1263       | Agricultural Target                                | 2
+1534       | Bias: Anti-Sikh                                    | 1
+1521       | Bias: Anti-Atheism/Agnosticism                     | 1
+0548       | Suspect gives victim douche/enema                  | 1
+1524       | Bias: Anti-Eastern Orthodox (Russian/Greek/Other)  | 1
+
+== Parsed Logical Plan ==
+'Sort ['Frequency DESC NULLS LAST], true
++- Filter (((isnotnull(MO_Code#236) AND NOT (trim(MO_Code#236, None) = )) AND isnotnull(MO_Desc#198)) AND NOT (trim(MO_Desc#198, None) = ))
+   +- Aggregate [MO_Code#236, MO_Desc#198], [MO_Code#236, MO_Desc#198, count(1) AS Frequency#327L]
+      +- Project [MO_Code#236, DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, ... 6 more fields]
+         +- Join LeftOuter, (MO_Code#236 = MO_Code#194)
+            :- Project [DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, Crm Cd 4#52, ... 5 more fields]
+            :  +- Project [DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, Crm Cd 4#52, ... 5 more fields]
+            :     +- Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
+            :        +- Union false, false
+            :           :- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+            :           +- Project [DR_NO#103, Date Rptd#104, DATE OCC#105, TIME OCC#106, AREA#107, AREA NAME#108, Rpt Dist No#109, Part 1-2#110, Crm Cd#111, Crm Cd Desc#112, Mocodes#113, Vict Age#114, Vict Sex#115, Vict Descent#116, Premis Cd#117, Premis Desc#118, Weapon Used Cd#119, Weapon Desc#120, Status#121, Status Desc#122, Crm Cd 1#123, Crm Cd 2#124, Crm Cd 3#125, Crm Cd 4#126, ... 4 more fields]
+            :              +- Relation [DR_NO#103,Date Rptd#104,DATE OCC#105,TIME OCC#106,AREA#107,AREA NAME#108,Rpt Dist No#109,Part 1-2#110,Crm Cd#111,Crm Cd Desc#112,Mocodes#113,Vict Age#114,Vict Sex#115,Vict Descent#116,Premis Cd#117,Premis Desc#118,Weapon Used Cd#119,Weapon Desc#120,Status#121,Status Desc#122,Crm Cd 1#123,Crm Cd 2#124,Crm Cd 3#125,Crm Cd 4#126,... 4 more fields] csv
+            +- Project [MO_Code#194, MO_Desc#198]
+               +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                  +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
+                     +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
+                        +- Relation [value#188] text
+
+== Analyzed Logical Plan ==
+MO_Code: string, MO_Desc: string, Frequency: bigint
+Sort [Frequency#327L DESC NULLS LAST], true
++- Filter (((isnotnull(MO_Code#236) AND NOT (trim(MO_Code#236, None) = )) AND isnotnull(MO_Desc#198)) AND NOT (trim(MO_Desc#198, None) = ))
+   +- Aggregate [MO_Code#236, MO_Desc#198], [MO_Code#236, MO_Desc#198, count(1) AS Frequency#327L]
+      +- Project [MO_Code#236, DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, ... 6 more fields]
+         +- Join LeftOuter, (MO_Code#236 = MO_Code#194)
+            :- Project [DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, Crm Cd 4#52, ... 5 more fields]
+            :  +- Project [DR_NO#29, Date Rptd#30, DATE OCC#31, TIME OCC#32, AREA#33, AREA NAME#34, Rpt Dist No#35, Part 1-2#36, Crm Cd#37, Crm Cd Desc#38, Mocodes#39, Vict Age#40, Vict Sex#41, Vict Descent#42, Premis Cd#43, Premis Desc#44, Weapon Used Cd#45, Weapon Desc#46, Status#47, Status Desc#48, Crm Cd 1#49, Crm Cd 2#50, Crm Cd 3#51, Crm Cd 4#52, ... 5 more fields]
+            :     +- Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
+            :        +- Union false, false
+            :           :- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+            :           +- Project [DR_NO#103, Date Rptd#104, DATE OCC#105, TIME OCC#106, AREA#107, AREA NAME#108, Rpt Dist No#109, Part 1-2#110, Crm Cd#111, Crm Cd Desc#112, Mocodes#113, Vict Age#114, Vict Sex#115, Vict Descent#116, Premis Cd#117, Premis Desc#118, Weapon Used Cd#119, Weapon Desc#120, Status#121, Status Desc#122, Crm Cd 1#123, Crm Cd 2#124, Crm Cd 3#125, Crm Cd 4#126, ... 4 more fields]
+            :              +- Relation [DR_NO#103,Date Rptd#104,DATE OCC#105,TIME OCC#106,AREA#107,AREA NAME#108,Rpt Dist No#109,Part 1-2#110,Crm Cd#111,Crm Cd Desc#112,Mocodes#113,Vict Age#114,Vict Sex#115,Vict Descent#116,Premis Cd#117,Premis Desc#118,Weapon Used Cd#119,Weapon Desc#120,Status#121,Status Desc#122,Crm Cd 1#123,Crm Cd 2#124,Crm Cd 3#125,Crm Cd 4#126,... 4 more fields] csv
+            +- Project [MO_Code#194, MO_Desc#198]
+               +- Project [value#188, split_cols#190, MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                  +- Project [value#188, split_cols#190, split_cols#190[0] AS MO_Code#194]
+                     +- Project [value#188, split(value#188,  , 2) AS split_cols#190]
+                        +- Relation [value#188] text
+
+== Optimized Logical Plan ==
+Sort [Frequency#327L DESC NULLS LAST], true
++- Aggregate [MO_Code#236, MO_Desc#198], [MO_Code#236, MO_Desc#198, count(1) AS Frequency#327L]
+   +- Project [MO_Code#236, MO_Desc#198]
+      +- Join Inner, (MO_Code#236 = MO_Code#194)
+         :- Project [trim(MO_Code#206, None) AS MO_Code#236]
+         :  +- Filter NOT (trim(trim(MO_Code#206, None), None) = )
+         :     +- Generate explode(split(Mocodes#39,  , -1)), [0], false, [MO_Code#206]
+         :        +- Union false, false
+         :           :- Project [Mocodes#39]
+         :           :  +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+         :           +- Project [Mocodes#113]
+         :              +- Relation [DR_NO#103,Date Rptd#104,DATE OCC#105,TIME OCC#106,AREA#107,AREA NAME#108,Rpt Dist No#109,Part 1-2#110,Crm Cd#111,Crm Cd Desc#112,Mocodes#113,Vict Age#114,Vict Sex#115,Vict Descent#116,Premis Cd#117,Premis Desc#118,Weapon Used Cd#119,Weapon Desc#120,Status#121,Status Desc#122,Crm Cd 1#123,Crm Cd 2#124,Crm Cd 3#125,Crm Cd 4#126,... 4 more fields] csv
+         +- Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+            +- Project [split(value#188,  , 2) AS split_cols#190]
+               +- Filter ((isnotnull(value#188) AND (isnotnull(split(value#188,  , 2)[1]) AND NOT (trim(split(value#188,  , 2)[1], None) = ))) AND (NOT (trim(split(value#188,  , 2)[0], None) = ) AND isnotnull(split(value#188,  , 2)[0])))
+                  +- Relation [value#188] text
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=true
++- == Final Plan ==
+   *(4) Sort [Frequency#327L DESC NULLS LAST], true, 0
+   +- AQEShuffleRead coalesced
+      +- ShuffleQueryStage 2
+         +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=262]
+            +- *(3) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[count(1)], output=[MO_Code#236, MO_Desc#198, Frequency#327L], schema specialized)
+               +- AQEShuffleRead coalesced
+                  +- ShuffleQueryStage 1
+                     +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=222]
+                        +- *(2) HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#332L], schema specialized)
+                           +- *(2) Project [MO_Code#236, MO_Desc#198]
+                              +- *(2) BroadcastHashJoin [MO_Code#236], [MO_Code#194], Inner, BuildRight, false
+                                 :- *(2) Project [trim(MO_Code#206, None) AS MO_Code#236]
+                                 :  +- *(2) Filter NOT (trim(trim(MO_Code#206, None), None) = )
+                                 :     +- *(2) Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
+                                 :        +- Union
+                                 :           :- FileScan csv [Mocodes#39] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
+                                 :           +- FileScan csv [Mocodes#113] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
+                                 +- BroadcastQueryStage 0
+                                    +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=145]
+                                       +- *(1) Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                                          +- *(1) Project [split(value#188,  , 2) AS split_cols#190]
+                                             +- *(1) Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
+                                                +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>
++- == Initial Plan ==
+   Sort [Frequency#327L DESC NULLS LAST], true, 0
+   +- Exchange rangepartitioning(Frequency#327L DESC NULLS LAST, 1000), ENSURE_REQUIREMENTS, [plan_id=108]
+      +- HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[count(1)], output=[MO_Code#236, MO_Desc#198, Frequency#327L], schema specialized)
+         +- Exchange hashpartitioning(MO_Code#236, MO_Desc#198, 1000), ENSURE_REQUIREMENTS, [plan_id=105]
+            +- HashAggregate(keys=[MO_Code#236, MO_Desc#198], functions=[partial_count(1)], output=[MO_Code#236, MO_Desc#198, count#332L], schema specialized)
+               +- Project [MO_Code#236, MO_Desc#198]
+                  +- BroadcastHashJoin [MO_Code#236], [MO_Code#194], Inner, BuildRight, false
+                     :- Project [trim(MO_Code#206, None) AS MO_Code#236]
+                     :  +- Filter NOT (trim(trim(MO_Code#206, None), None) = )
+                     :     +- Generate explode(split(Mocodes#39,  , -1)), false, [MO_Code#206]
+                     :        +- Union
+                     :           :- FileScan csv [Mocodes#39] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
+                     :           +- FileScan csv [Mocodes#113] Batched: false, DataFilters: [], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [], ReadSchema: struct<Mocodes:string>
+                     +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=100]
+                        +- Project [split_cols#190[0] AS MO_Code#194, split_cols#190[1] AS MO_Desc#198]
+                           +- Project [split(value#188,  , 2) AS split_cols#190]
+                              +- Filter ((((isnotnull(value#188) AND isnotnull(split(value#188,  , 2)[1])) AND NOT (trim(split(value#188,  , 2)[1], None) = )) AND NOT (trim(split(value#188,  , 2)[0], None) = )) AND isnotnull(split(value#188,  , 2)[0]))
+                                 +- FileScan text [value#188] Batched: false, DataFilters: [isnotnull(value#188), isnotnull(split(value#188,  , 2)[1]), NOT (trim(split(value#188,  , 2)[1],..., Format: Text, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/MO_c..., PartitionFilters: [], PushedFilters: [IsNotNull(value)], ReadSchema: struct<value:string>

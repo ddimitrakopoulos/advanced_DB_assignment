@@ -1,6 +1,9 @@
 
 Broadcast Hash Join Execution Time: 23.68 sec
 Broadcast Hash Join Execution Time: 18.41 sec
+Broadcast Hash Join Execution Time: 19.29 sec
+Broadcast Hash Join Execution Time: 20.07 sec
+Broadcast Hash Join Execution Time: 18.90 sec
 
 MO Code    | Description                                        | Frequency
 --------------------------------------------------------------------------------
