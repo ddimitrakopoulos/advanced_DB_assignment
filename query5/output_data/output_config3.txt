@@ -1,0 +1,286 @@
+Total pipeline executed in 118.81 seconds
+Total pipeline executed in 77.01 seconds
+Total pipeline executed in 97.21 seconds
+Total pipeline executed in 77.57 seconds
+Total pipeline executed in 97.04 seconds
+
++-------+-------------------------------------------------------------------------------------------------------+----------------+------------+-----------------+----------+-------------+
+|ZIPcode|Community                                                                                              |Total_Population|Total_Crimes|Avg_Annual_Crimes|Crime_Rate|Median_Income|
++-------+-------------------------------------------------------------------------------------------------------+----------------+------------+-----------------+----------+-------------+
+|90021  |Los Angeles (Downtown Fashion District, Downtown Southeast)                                            |5192            |3409        |1704.5           |0.32829353|25364        |
+|90013  |Los Angeles (Downtown Central, Downtown Fashion District)                                              |15589           |6068        |3034.0           |0.19462441|22291        |
+|90014  |Los Angeles (Downtown Historic Core, Arts District)                                                    |9254            |3121        |1560.5           |0.16862978|31332        |
+|90028  |Los Angeles (Hollywood)                                                                                |32330           |9720        |4860.0           |0.15032478|52814        |
+|90015  |Los Angeles (Dowtown Fashion District, South Park-South)                                               |27324           |7275        |3637.5           |0.13312473|53062        |
+|90058  |Los Angeles (Southeast Los Angeles), Vernon                                                            |3751            |952         |476.0            |0.12689949|33146        |
+|90010  |Los Angeles (Hancock Park, Wilshire Center, Windsor Square)                                            |5400            |1298        |649.0            |0.12018519|76547        |
+|90017  |Los Angeles (Downtown Bunker Hill, City West, South Park-North)                                        |27295           |5878        |2939.0           |0.10767540|44607        |
+|90012  |Los Angeles (Downtown Civic Center, Chinatown, Arts District, Bunker Hill, Historic Core, Little Tokyo)|33851           |6759        |3379.5           |0.09983457|53278        |
+|90291  |Los Angeles (Venice)                                                                                   |28442           |5547        |2773.5           |0.09751424|105871       |
+|90045  |Los Angeles (Los Angeles International Airport, Westchester)                                           |41035           |6875        |3437.5           |0.08376995|115943       |
+|90003  |Los Angeles (South Los Angeles, Southeast Los Angeles)                                                 |72764           |11996       |5998.0           |0.08243087|47733        |
+|90048  |Los Angeles (Mid-City West), West Hollywood                                                            |22604           |3494        |1747.0           |0.07728721|102567       |
+|90038  |Los Angeles (Hollywood)                                                                                |27414           |3993        |1996.5           |0.07282775|51096        |
+|90007  |Los Angeles (Southeast Los Angeles, Univerity Park)                                                    |40944           |5938        |2969.0           |0.07251368|33222        |
+|90037  |Los Angeles (South Los Angeles)                                                                        |63706           |8359        |4179.5           |0.06560607|45128        |
+|91601  |Los Angeles (North Hollywood, Toluca Terrace)                                                          |39429           |5124        |2562.0           |0.06497755|61761        |
+|91303  |Los Angeles (Canoga Park)                                                                              |28457           |3587        |1793.5           |0.06302491|66494        |
+|91324  |Los Angeles (Northridge)                                                                               |29500           |3667        |1833.5           |0.06215254|88003        |
+|90062  |Los Angeles (South Los Angeles)                                                                        |32524           |4016        |2008.0           |0.06173902|56500        |
+|90008  |Los Angeles (Baldwin Hills, Crenshaw, Leimert Park)                                                    |33041           |4035        |2017.5           |0.06106050|49379        |
+|90068  |Los Angeles (Hollywood)                                                                                |24361           |2859        |1429.5           |0.05867986|90733        |
+|90064  |Los Angeles (Cheviot Hills, Rancho Park)                                                               |27553           |3196        |1598.0           |0.05799731|109357       |
+|90027  |Los Angeles (Griffith Park, Hollywood, Los Feliz)                                                      |44471           |5136        |2568.0           |0.05774550|78356        |
+|90025  |Los Angeles (Sawtelle, West Los Angeles)                                                               |45466           |5173        |2586.5           |0.05688866|100453       |
+|91604  |Los Angeles (North Hollywood, Studio City)                                                             |30947           |3477        |1738.5           |0.05617669|124271       |
+|90057  |Los Angeles (Westlake)                                                                                 |45510           |5105        |2552.5           |0.05608657|43796        |
+|90036  |Los Angeles (Fairfax, Melrose, Miracle Mile, Park La Brea, Wilshire-La Brea)                           |39549           |4406        |2203.0           |0.05570305|87868        |
+|90061  |Los Angeles (South Los Angeles)                                                                        |29570           |3293        |1646.5           |0.05568143|50427        |
+|90019  |Los Angeles (Arlington Heights, Country Club Park, Mid-City)                                           |62002           |6872        |3436.0           |0.05541757|61616        |
+|90044  |Athens, Los Angeles (South Los Angeles)                                                                |94354           |10305       |5152.5           |0.05460818|43388        |
+|90744  |Los Angeles (Wilmington)                                                                               |53070           |5749        |2874.5           |0.05416431|55141        |
+|91411  |Los Angeles (Van Nuys)                                                                                 |24984           |2704        |1352.0           |0.05411463|67430        |
+|90016  |Los Angeles (West Adams)                                                                               |46512           |5030        |2515.0           |0.05407207|53659        |
+|90006  |Los Angeles (Byzantine-Latino Quarter, Harvard Heights, Koreatown, Pico Heights)                       |58229           |6253        |3126.5           |0.05369318|41068        |
+|90005  |Los Angeles (Hancock Park, Koreatown, Wilshire Center, Wilshire Park, Windsor Square)                  |37987           |4063        |2031.5           |0.05347882|44913        |
+|90033  |Los Angeles (Boyle Heights)                                                                            |46081           |4913        |2456.5           |0.05330830|49734        |
+|90731  |Los Angeles (San Pedro, Terminal Island)                                                               |61261           |6462        |3231.0           |0.05274155|61144        |
+|90026  |Los Angeles (Echo Park, Silver Lake)                                                                   |63329           |6583        |3291.5           |0.05197461|70436        |
+|90004  |Los Angeles (Hancock Park, Rampart Village, Virgil Village, Wilshire Center, Windsor Square)           |58585           |6021        |3010.5           |0.05138687|54947        |
+|90020  |Los Angeles (Hancock Park, Western Wilton, Wilshire Center, Windsor Square)                            |38694           |3887        |1943.5           |0.05022743|51013        |
+|90018  |Los Angeles (Jefferson Park, Leimert Park)                                                             |50179           |5014        |2507.0           |0.04996114|55275        |
+|90043  |Los Angeles (Hyde Park, View Park, Windsor Hills)                                                      |46179           |4506        |2253.0           |0.04878841|60599        |
+|91364  |Los Angeles (Woodland Hills)                                                                           |27071           |2627        |1313.5           |0.04852056|116443       |
+|90047  |Los Angeles (South Los Angeles)                                                                        |50154           |4814        |2407.0           |0.04799218|62399        |
+|90046  |Los Angeles (Hollywood), West Hollywood                                                                |49987           |4737        |2368.5           |0.04738232|77162        |
+|90029  |Los Angeles (East Hollywood)                                                                           |34695           |3274        |1637.0           |0.04718259|50822        |
+|91403  |Los Angeles (Sherman Oaks, Van Nuys)                                                                   |25329           |2387        |1193.5           |0.04711990|104499       |
+|91406  |Los Angeles (Lake Balboa, Van Nuys)                                                                    |53252           |4923        |2461.5           |0.04622362|64875        |
+|91602  |Los Angeles (North Hollywood, Studio City, Toluca Lake, West Toluca Lake)                              |19647           |1814        |907.0            |0.04616481|83866        |
++-------+-------------------------------------------------------------------------------------------------------+----------------+------------+-----------------+----------+-------------+
+only showing top 50 rows
+
+Correlation (Income vs Crime Rate): -0.3873
++-------+------------------------------------------------------------------------------------+-------------+---------------------+
+|ZIPcode|Community                                                                           |Median_Income|Crime_Rate_Per_Capita|
++-------+------------------------------------------------------------------------------------+-------------+---------------------+
+|90272  |Los Angeles (Castellemare, Pacific Highlands, Pacific Palisades, Topanga State Park)|212115       |0.02930106           |
+|90077  |Los Angeles (Bel Air Estates, Beverly Glen)                                         |200625       |0.02834122           |
+|90265  |Malibu                                                                              |175607       |0.00003412           |
+|90094  |Los Angeles (Playa Vista)                                                           |166667       |0.03059783           |
+|90275  |Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills Estates                    |158952       |0.00142514           |
+|91436  |Los Angeles (Encino)                                                                |157898       |0.03561788           |
+|90210  |Beverly Hills                                                                       |154740       |0.00979464           |
+|91302  |Calabasas, Hidden Hills, Monte Nido                                                 |146521       |0.00001963           |
+|91105  |Pasadena                                                                            |143892       |0.00032446           |
+|90049  |Los Angeles (Bel Air Estates, Brentwood)                                            |143000       |0.03391022           |
++-------+------------------------------------------------------------------------------------+-------------+---------------------+
+
++-------+--------------------------------------------------------------------------------+-------------+---------------------+
+|ZIPcode|Community                                                                       |Median_Income|Crime_Rate_Per_Capita|
++-------+--------------------------------------------------------------------------------+-------------+---------------------+
+|90013  |Los Angeles (Downtown Central, Downtown Fashion District)                       |22291        |0.19462441           |
+|90021  |Los Angeles (Downtown Fashion District, Downtown Southeast)                     |25364        |0.32829353           |
+|90014  |Los Angeles (Downtown Historic Core, Arts District)                             |31332        |0.16862978           |
+|90058  |Los Angeles (Southeast Los Angeles), Vernon                                     |33146        |0.12689949           |
+|90007  |Los Angeles (Southeast Los Angeles, Univerity Park)                             |33222        |0.07251368           |
+|90006  |Los Angeles (Byzantine-Latino Quarter, Harvard Heights, Koreatown, Pico Heights)|41068        |0.05369318           |
+|90044  |Athens, Los Angeles (South Los Angeles)                                         |43388        |0.05460818           |
+|90057  |Los Angeles (Westlake)                                                          |43796        |0.05608657           |
+|90017  |Los Angeles (Downtown Bunker Hill, City West, South Park-North)                 |44607        |0.10767540           |
+|90813  |Long Beach                                                                      |44867        |0.00000916           |
++-------+--------------------------------------------------------------------------------+-------------+---------------------+
+
+Correlation (Top 10 & Bottom 10 Only): -0.6338
+
+
+
+Join 1 :
+== Parsed Logical Plan ==
+'Join UsingJoin(Inner, [ZIPcode])
+:- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+:  +- Filter isnotnull(ZIPcode#165)
+:     +- Project [LAT#55, LON#56, DR_NO#29, find_zip_id(LAT#55, LON#56)#164 AS ZIPcode#165]
+:        +- Filter (NOT (cast(LAT#55 as int) = 0) AND NOT (cast(LON#56 as int) = 0))
+:           +- Project [LAT#55, LON#56, DR_NO#29]
+:              +- Filter (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))
+:                 +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
++- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+   +- Project [trim(cast(ZIPcode#144 as string), None) AS ZIPcode#183, Population#178, coords#146, type#147]
+      +- Project [ZIPcode#144, cast(Population#145L as int) AS Population#178, coords#146, type#147]
+         +- Project [trim(cast(feature#141.properties.ZCTA20 as string), None) AS ZIPcode#144, feature#141.properties.POP20 AS Population#145L, feature#141.geometry.coordinates AS coords#146, feature#141.geometry.type AS type#147]
+            +- Project [feature#141]
+               +- Generate explode(features#110), false, [feature#141]
+                  +- Relation [crs#109,features#110,name#111,type#112] json
+
+== Analyzed Logical Plan ==
+ZIPcode: string, Total_Crimes: bigint, Total_Population: bigint
+Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
++- Join Inner, (ZIPcode#165 = ZIPcode#183)
+   :- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+   :  +- Filter isnotnull(ZIPcode#165)
+   :     +- Project [LAT#55, LON#56, DR_NO#29, find_zip_id(LAT#55, LON#56)#164 AS ZIPcode#165]
+   :        +- Filter (NOT (cast(LAT#55 as int) = 0) AND NOT (cast(LON#56 as int) = 0))
+   :           +- Project [LAT#55, LON#56, DR_NO#29]
+   :              +- Filter (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))
+   :                 +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+   +- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+      +- Project [trim(cast(ZIPcode#144 as string), None) AS ZIPcode#183, Population#178, coords#146, type#147]
+         +- Project [ZIPcode#144, cast(Population#145L as int) AS Population#178, coords#146, type#147]
+            +- Project [trim(cast(feature#141.properties.ZCTA20 as string), None) AS ZIPcode#144, feature#141.properties.POP20 AS Population#145L, feature#141.geometry.coordinates AS coords#146, feature#141.geometry.type AS type#147]
+               +- Project [feature#141]
+                  +- Generate explode(features#110), false, [feature#141]
+                     +- Relation [crs#109,features#110,name#111,type#112] json
+
+== Optimized Logical Plan ==
+Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
++- Join Inner, (ZIPcode#165 = ZIPcode#183)
+   :- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+   :  +- Project [DR_NO#29, pythonUDF0#201 AS ZIPcode#165]
+   :     +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#201]
+   :        +- Project [DR_NO#29, LAT#55, LON#56]
+   :           +- Filter isnotnull(pythonUDF0#200)
+   :              +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#200]
+   :                 +- Project [DR_NO#29, DATE OCC#31, LAT#55, LON#56]
+   :                    +- Filter ((((isnotnull(LAT#55) AND isnotnull(LON#56)) AND (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))) AND NOT (cast(LAT#55 as int) = 0)) AND NOT (cast(LON#56 as int) = 0))
+   :                       +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+   +- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+      +- Project [trim(trim(feature#141.properties.ZCTA20, None), None) AS ZIPcode#183, cast(feature#141.properties.POP20 as int) AS Population#178]
+         +- Filter isnotnull(trim(trim(feature#141.properties.ZCTA20, None), None))
+            +- Generate explode(features#110), [0], false, [feature#141]
+               +- Project [features#110]
+                  +- Filter ((size(features#110, true) > 0) AND isnotnull(features#110))
+                     +- Relation [crs#109,features#110,name#111,type#112] json
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
+   +- BroadcastHashJoin [ZIPcode#165], [ZIPcode#183], Inner, BuildRight, false
+      :- HashAggregate(keys=[ZIPcode#165], functions=[count(DR_NO#29)], output=[ZIPcode#165, Total_Crimes#175L], schema specialized)
+      :  +- Exchange hashpartitioning(ZIPcode#165, 1000), ENSURE_REQUIREMENTS, [plan_id=161]
+      :     +- HashAggregate(keys=[ZIPcode#165], functions=[partial_count(DR_NO#29)], output=[ZIPcode#165, count#203L], schema specialized)
+      :        +- Project [DR_NO#29, pythonUDF0#201 AS ZIPcode#165]
+      :           +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#201]
+      :              +- Project [DR_NO#29, LAT#55, LON#56]
+      :                 +- Filter isnotnull(pythonUDF0#200)
+      :                    +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#200]
+      :                       +- Filter ((((isnotnull(LAT#55) AND isnotnull(LON#56)) AND (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))) AND NOT (cast(LAT#55 as int) = 0)) AND NOT (cast(LON#56 as int) = 0))
+      :                          +- FileScan csv [DR_NO#29,DATE OCC#31,LAT#55,LON#56] Batched: false, DataFilters: [isnotnull(LAT#55), isnotnull(LON#56), (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), Or(StringContains(DATE OCC,2020),StringContains(DATE OCC,2021))], ReadSchema: struct<DR_NO:string,DATE OCC:string,LAT:string,LON:string>
+      +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=166]
+         +- HashAggregate(keys=[ZIPcode#183], functions=[sum(Population#178)], output=[ZIPcode#183, Total_Population#193L], schema specialized)
+            +- Exchange hashpartitioning(ZIPcode#183, 1000), ENSURE_REQUIREMENTS, [plan_id=163]
+               +- HashAggregate(keys=[ZIPcode#183], functions=[partial_sum(Population#178)], output=[ZIPcode#183, sum#205L], schema specialized)
+                  +- Project [trim(trim(feature#141.properties.ZCTA20, None), None) AS ZIPcode#183, cast(feature#141.properties.POP20 as int) AS Population#178]
+                     +- Filter isnotnull(trim(trim(feature#141.properties.ZCTA20, None), None))
+                        +- Generate explode(features#110), false, [feature#141]
+                           +- Filter ((size(features#110, true) > 0) AND isnotnull(features#110))
+                              +- FileScan json [features#110] Batched: false, DataFilters: [(size(features#110, true) > 0), isnotnull(features#110)], Format: JSON, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(features)], ReadSchema: struct<features:array<struct<geometry:struct<coordinates:array<array<array<string>>>,type:string>...
+
+
+Join 2 :
+== Parsed Logical Plan ==
+'Join UsingJoin(Inner, [ZIPcode])
+:- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
+:  +- Join Inner, (ZIPcode#165 = ZIPcode#183)
+:     :- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+:     :  +- Filter isnotnull(ZIPcode#165)
+:     :     +- Project [LAT#55, LON#56, DR_NO#29, find_zip_id(LAT#55, LON#56)#164 AS ZIPcode#165]
+:     :        +- Filter (NOT (cast(LAT#55 as int) = 0) AND NOT (cast(LON#56 as int) = 0))
+:     :           +- Project [LAT#55, LON#56, DR_NO#29]
+:     :              +- Filter (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))
+:     :                 +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+:     +- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+:        +- Project [trim(cast(ZIPcode#144 as string), None) AS ZIPcode#183, Population#178, coords#146, type#147]
+:           +- Project [ZIPcode#144, cast(Population#145L as int) AS Population#178, coords#146, type#147]
+:              +- Project [trim(cast(feature#141.properties.ZCTA20 as string), None) AS ZIPcode#144, feature#141.properties.POP20 AS Population#145L, feature#141.geometry.coordinates AS coords#146, feature#141.geometry.type AS type#147]
+:                 +- Project [feature#141]
+:                    +- Generate explode(features#110), false, [feature#141]
+:                       +- Relation [crs#109,features#110,name#111,type#112] json
++- Filter isnotnull(Median_Income#127)
+   +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, Median_Income#127, trim(cast(Zip Code#103 as string), None) AS ZIPcode#133]
+      +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, cast(clean_inc_str#121 as int) AS Median_Income#127]
+         +- Project [Zip Code#103, Community#104, Estimated Median Income#105, regexp_replace(Estimated Median Income#105, [$,], , 1) AS clean_inc_str#121]
+            +- Relation [Zip Code#103,Community#104,Estimated Median Income#105] csv
+
+== Analyzed Logical Plan ==
+ZIPcode: string, Total_Crimes: bigint, Total_Population: bigint, Zip Code: string, Community: string, Estimated Median Income: string, clean_inc_str: string, Median_Income: int
+Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L, Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, Median_Income#127]
++- Join Inner, (ZIPcode#165 = ZIPcode#133)
+   :- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
+   :  +- Join Inner, (ZIPcode#165 = ZIPcode#183)
+   :     :- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+   :     :  +- Filter isnotnull(ZIPcode#165)
+   :     :     +- Project [LAT#55, LON#56, DR_NO#29, find_zip_id(LAT#55, LON#56)#164 AS ZIPcode#165]
+   :     :        +- Filter (NOT (cast(LAT#55 as int) = 0) AND NOT (cast(LON#56 as int) = 0))
+   :     :           +- Project [LAT#55, LON#56, DR_NO#29]
+   :     :              +- Filter (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))
+   :     :                 +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+   :     +- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+   :        +- Project [trim(cast(ZIPcode#144 as string), None) AS ZIPcode#183, Population#178, coords#146, type#147]
+   :           +- Project [ZIPcode#144, cast(Population#145L as int) AS Population#178, coords#146, type#147]
+   :              +- Project [trim(cast(feature#141.properties.ZCTA20 as string), None) AS ZIPcode#144, feature#141.properties.POP20 AS Population#145L, feature#141.geometry.coordinates AS coords#146, feature#141.geometry.type AS type#147]
+   :                 +- Project [feature#141]
+   :                    +- Generate explode(features#110), false, [feature#141]
+   :                       +- Relation [crs#109,features#110,name#111,type#112] json
+   +- Filter isnotnull(Median_Income#127)
+      +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, Median_Income#127, trim(cast(Zip Code#103 as string), None) AS ZIPcode#133]
+         +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, cast(clean_inc_str#121 as int) AS Median_Income#127]
+            +- Project [Zip Code#103, Community#104, Estimated Median Income#105, regexp_replace(Estimated Median Income#105, [$,], , 1) AS clean_inc_str#121]
+               +- Relation [Zip Code#103,Community#104,Estimated Median Income#105] csv
+
+== Optimized Logical Plan ==
+Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L, Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, Median_Income#127]
++- Join Inner, (ZIPcode#165 = ZIPcode#133)
+   :- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
+   :  +- Join Inner, (ZIPcode#165 = ZIPcode#183)
+   :     :- Aggregate [ZIPcode#165], [ZIPcode#165, count(DR_NO#29) AS Total_Crimes#175L]
+   :     :  +- Project [DR_NO#29, pythonUDF0#223 AS ZIPcode#165]
+   :     :     +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#223]
+   :     :        +- Project [DR_NO#29, LAT#55, LON#56]
+   :     :           +- Filter isnotnull(pythonUDF0#222)
+   :     :              +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#222]
+   :     :                 +- Project [DR_NO#29, DATE OCC#31, LAT#55, LON#56]
+   :     :                    +- Filter ((((isnotnull(LAT#55) AND isnotnull(LON#56)) AND (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))) AND NOT (cast(LAT#55 as int) = 0)) AND NOT (cast(LON#56 as int) = 0))
+   :     :                       +- Relation [DR_NO#29,Date Rptd#30,DATE OCC#31,TIME OCC#32,AREA#33,AREA NAME#34,Rpt Dist No#35,Part 1-2#36,Crm Cd#37,Crm Cd Desc#38,Mocodes#39,Vict Age#40,Vict Sex#41,Vict Descent#42,Premis Cd#43,Premis Desc#44,Weapon Used Cd#45,Weapon Desc#46,Status#47,Status Desc#48,Crm Cd 1#49,Crm Cd 2#50,Crm Cd 3#51,Crm Cd 4#52,... 4 more fields] csv
+   :     +- Aggregate [ZIPcode#183], [ZIPcode#183, sum(Population#178) AS Total_Population#193L]
+   :        +- Project [trim(trim(feature#141.properties.ZCTA20, None), None) AS ZIPcode#183, cast(feature#141.properties.POP20 as int) AS Population#178]
+   :           +- Filter isnotnull(trim(trim(feature#141.properties.ZCTA20, None), None))
+   :              +- Generate explode(features#110), [0], false, [feature#141]
+   :                 +- Project [features#110]
+   :                    +- Filter ((size(features#110, true) > 0) AND isnotnull(features#110))
+   :                       +- Relation [crs#109,features#110,name#111,type#112] json
+   +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, cast(clean_inc_str#121 as int) AS Median_Income#127, trim(Zip Code#103, None) AS ZIPcode#133]
+      +- Project [Zip Code#103, Community#104, Estimated Median Income#105, regexp_replace(Estimated Median Income#105, [$,], , 1) AS clean_inc_str#121]
+         +- Filter ((isnotnull(Estimated Median Income#105) AND isnotnull(cast(regexp_replace(Estimated Median Income#105, [$,], , 1) as int))) AND isnotnull(trim(Zip Code#103, None)))
+            +- Relation [Zip Code#103,Community#104,Estimated Median Income#105] csv
+
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L, Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, Median_Income#127]
+   +- BroadcastHashJoin [ZIPcode#165], [ZIPcode#133], Inner, BuildRight, false
+      :- Project [ZIPcode#165, Total_Crimes#175L, Total_Population#193L]
+      :  +- BroadcastHashJoin [ZIPcode#165], [ZIPcode#183], Inner, BuildRight, false
+      :     :- HashAggregate(keys=[ZIPcode#165], functions=[count(DR_NO#29)], output=[ZIPcode#165, Total_Crimes#175L], schema specialized)
+      :     :  +- Exchange hashpartitioning(ZIPcode#165, 1000), ENSURE_REQUIREMENTS, [plan_id=339]
+      :     :     +- HashAggregate(keys=[ZIPcode#165], functions=[partial_count(DR_NO#29)], output=[ZIPcode#165, count#203L], schema specialized)
+      :     :        +- Project [DR_NO#29, pythonUDF0#223 AS ZIPcode#165]
+      :     :           +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#223]
+      :     :              +- Project [DR_NO#29, LAT#55, LON#56]
+      :     :                 +- Filter isnotnull(pythonUDF0#222)
+      :     :                    +- BatchEvalPython [find_zip_id(LAT#55, LON#56)#164], [pythonUDF0#222]
+      :     :                       +- Filter ((((isnotnull(LAT#55) AND isnotnull(LON#56)) AND (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021))) AND NOT (cast(LAT#55 as int) = 0)) AND NOT (cast(LON#56 as int) = 0))
+      :     :                          +- FileScan csv [DR_NO#29,DATE OCC#31,LAT#55,LON#56] Batched: false, DataFilters: [isnotnull(LAT#55), isnotnull(LON#56), (Contains(DATE OCC#31, 2020) OR Contains(DATE OCC#31, 2021..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(LAT), IsNotNull(LON), Or(StringContains(DATE OCC,2020),StringContains(DATE OCC,2021))], ReadSchema: struct<DR_NO:string,DATE OCC:string,LAT:string,LON:string>
+      :     +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]),false), [plan_id=344]
+      :        +- HashAggregate(keys=[ZIPcode#183], functions=[sum(Population#178)], output=[ZIPcode#183, Total_Population#193L], schema specialized)
+      :           +- Exchange hashpartitioning(ZIPcode#183, 1000), ENSURE_REQUIREMENTS, [plan_id=341]
+      :              +- HashAggregate(keys=[ZIPcode#183], functions=[partial_sum(Population#178)], output=[ZIPcode#183, sum#205L], schema specialized)
+      :                 +- Project [trim(trim(feature#141.properties.ZCTA20, None), None) AS ZIPcode#183, cast(feature#141.properties.POP20 as int) AS Population#178]
+      :                    +- Filter isnotnull(trim(trim(feature#141.properties.ZCTA20, None), None))
+      :                       +- Generate explode(features#110), false, [feature#141]
+      :                          +- Filter ((size(features#110, true) > 0) AND isnotnull(features#110))
+      :                             +- FileScan json [features#110] Batched: false, DataFilters: [(size(features#110, true) > 0), isnotnull(features#110)], Format: JSON, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_C..., PartitionFilters: [], PushedFilters: [IsNotNull(features)], ReadSchema: struct<features:array<struct<geometry:struct<coordinates:array<array<array<string>>>,type:string>...
+      +- BroadcastExchange HashedRelationBroadcastMode(List(input[5, string, true]),false), [plan_id=348]
+         +- Project [Zip Code#103, Community#104, Estimated Median Income#105, clean_inc_str#121, cast(clean_inc_str#121 as int) AS Median_Income#127, trim(Zip Code#103, None) AS ZIPcode#133]
+            +- Project [Zip Code#103, Community#104, Estimated Median Income#105, regexp_replace(Estimated Median Income#105, [$,], , 1) AS clean_inc_str#121]
+               +- Filter ((isnotnull(Estimated Median Income#105) AND isnotnull(cast(regexp_replace(Estimated Median Income#105, [$,], , 1) as int))) AND isnotnull(trim(Zip Code#103, None)))
+                  +- FileScan csv [Zip Code#103,Community#104,Estimated Median Income#105] Batched: false, DataFilters: [isnotnull(Estimated Median Income#105), isnotnull(cast(regexp_replace(Estimated Median Income#10..., Format: CSV, Location: InMemoryFileIndex(1 paths)[s3://initial-notebook-data-bucket-dblab-905418150721/project_data/LA_i..., PartitionFilters: [], PushedFilters: [IsNotNull(Estimated Median Income)], ReadSchema: struct<Zip Code:string,Community:string,Estimated Median Income:string>
