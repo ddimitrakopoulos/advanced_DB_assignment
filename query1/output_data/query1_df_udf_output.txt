@@ -1,16 +1,6 @@
-Starting Spark application
-
-ID	YARN Application ID	Kind	State	Spark UI	Driver log	User	Current session?
-671	application_1765289937462_0664	pyspark	idle	Link	Link	None	✔
-Error displaying widget: model not found
-
-SparkSession available as 'spark'.
-
-Error displaying widget: model not found
-
 ====================================================================
 Reloading crime data as DataFrames with explicit schema...
-[INFO] Data loading + union: 3.36 sec
+[INFO] Data loading + union: 3.32 sec
 ====================================================================
 Filtering aggravated assaults and computing age groups (with UDF)...
 +--------------------+------+
@@ -22,4 +12,4 @@ Filtering aggravated assaults and computing age groups (with UDF)...
 |Seniors (>64)       |6011  |
 +--------------------+------+
 
-[TIMING] DF (with UDF) pipeline: 0.15 sec
+[TIMING] DF (with UDF) pipeline: 13.36 sec
