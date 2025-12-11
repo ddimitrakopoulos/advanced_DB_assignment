@@ -1,0 +1,66 @@
+Starting Spark application
+
+ID	YARN Application ID	Kind	State	Spark UI	Driver log	User	Current session?
+691	application_1765289937462_0684	pyspark	idle	Link	Link	None	✔
+
+SparkSession available as 'spark'.
+
+====================================================================
+Loading crime data & RE codes as DataFrames (for SQL)...
+[INFO] Data loading + union (SQL impl): 3.52 sec
+====================================================================
+SQL pipeline for Query 2 (per year, top-3 Vict Descent)...
++----+----------------------+-----------+----------+
+|year|Victim_Descent        |num_victims|percentage|
++----+----------------------+-----------+----------+
+|2010|Hispanic/Latin/Mexican|73558      |38.93     |
+|2010|White                 |53835      |28.49     |
+|2010|Black                 |33937      |17.96     |
+|2011|Hispanic/Latin/Mexican|70845      |38.8      |
+|2011|White                 |51219      |28.05     |
+|2011|Black                 |32579      |17.84     |
+|2012|Hispanic/Latin/Mexican|70338      |38.25     |
+|2012|White                 |51839      |28.19     |
+|2012|Black                 |33572      |18.26     |
+|2013|Hispanic/Latin/Mexican|66741      |37.97     |
+|2013|White                 |48453      |27.57     |
+|2013|Black                 |31975      |18.19     |
+|2014|Hispanic/Latin/Mexican|68763      |38.42     |
+|2014|White                 |47531      |26.56     |
+|2014|Black                 |32952      |18.41     |
+|2015|Hispanic/Latin/Mexican|55978      |36.65     |
+|2015|White                 |44102      |28.87     |
+|2015|Black                 |26510      |17.35     |
+|2016|Hispanic/Latin/Mexican|99135      |38.74     |
+|2016|White                 |63760      |24.92     |
+|2016|Black                 |42449      |16.59     |
+|2017|Hispanic/Latin/Mexican|78308      |37.55     |
+|2017|White                 |52744      |25.29     |
+|2017|Black                 |34713      |16.65     |
+|2018|Hispanic/Latin/Mexican|75958      |36.42     |
+|2018|White                 |52233      |25.05     |
+|2018|Black                 |35340      |16.95     |
+|2019|Hispanic/Latin/Mexican|72458      |36.38     |
+|2019|White                 |48863      |24.54     |
+|2019|Black                 |33157      |16.65     |
+|2020|Hispanic/Latin/Mexican|61606      |35.33     |
+|2020|White                 |42638      |24.45     |
+|2020|Black                 |28785      |16.51     |
+|2021|Hispanic/Latin/Mexican|63676      |35.08     |
+|2021|White                 |44523      |24.53     |
+|2021|Black                 |30173      |16.62     |
+|2022|Hispanic/Latin/Mexican|73111      |35.64     |
+|2022|White                 |46695      |22.76     |
+|2022|Black                 |34634      |16.88     |
+|2023|Hispanic/Latin/Mexican|69401      |34.55     |
+|2023|White                 |44615      |22.21     |
+|2023|Black                 |30504      |15.19     |
+|2024|Hispanic/Latin/Mexican|28576      |29.05     |
+|2024|White                 |22958      |23.34     |
+|2024|Unknown               |19984      |20.32     |
+|2025|Hispanic/Latin/Mexican|34         |40.48     |
+|2025|Unknown               |24         |28.57     |
+|2025|White                 |13         |15.48     |
++----+----------------------+-----------+----------+
+
+[TIMING] SQL Query 2 pipeline: 0.54 sec
