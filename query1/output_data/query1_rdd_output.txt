@@ -1,6 +1,10 @@
 ====================================================================
 Loading crime data as RDDs (2010?2019 & 2020?2025)...
 [INFO] RDD loading + union: 4.16 sec
+[INFO] RDD loading + union: 10.59 sec
+[INFO] RDD loading + union: 9.47 sec
+[INFO] RDD loading + union: 9.97 sec
+[INFO] RDD loading + union: 9.36 sec
 ====================================================================
 RDD pipeline: filter aggravated assaults and count age groups...
 Adults (25-64): 121660
@@ -8,4 +12,8 @@ Young adults (18-24): 33758
 Children (<18): 10904
 Seniors (>64): 6011
 [TIMING] RDD pipeline: 14.85 sec
+[TIMING] RDD pipeline: 19.52 sec
+[TIMING] RDD pipeline: 19.99 sec
+[TIMING] RDD pipeline: 18.78 sec
+[TIMING] RDD pipeline: 19.08 sec
 ====================================================================
