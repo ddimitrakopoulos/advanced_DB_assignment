@@ -1,6 +1,10 @@
 ====================================================================
 Loading crime data & RE codes as DataFrames (for SQL)...
 [INFO] Data loading + union (SQL impl): 3.53 sec
+[INFO] Data loading + union (SQL impl): 3.39 sec
+[INFO] Data loading + union (SQL impl): 3.31 sec
+[INFO] Data loading + union (SQL impl): 3.52 sec
+[INFO] Data loading + union (SQL impl): 3.20 sec
 ====================================================================
 SQL pipeline for Query 2 (per year, top-3 Vict Descent)...
 +----+----------------------+-----------+----------+
@@ -57,3 +61,7 @@ SQL pipeline for Query 2 (per year, top-3 Vict Descent)...
 +----+----------------------+-----------+----------+
 
 [TIMING] SQL Query 2 pipeline: 15.58 sec
+[TIMING] SQL Query 2 pipeline: 18.34 sec
+[TIMING] SQL Query 2 pipeline: 17.31 sec
+[TIMING] SQL Query 2 pipeline: 18.28 sec
+[TIMING] SQL Query 2 pipeline: 17.59 sec
