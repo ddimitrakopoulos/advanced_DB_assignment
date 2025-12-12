@@ -1,13 +1,10 @@
-Starting Spark application
-
-ID	YARN Application ID	Kind	State	Spark UI	Driver log	User	Current session?
-694	application_1765289937462_0687	pyspark	idle	Link	Link	None	✔
-
-SparkSession available as 'spark'.
-
 ====================================================================
 Loading crime data & RE codes as DataFrames...
-[INFO] Data loading + union: 3.68 sec
+[INFO] Data loading + union: 3.54 sec
+[INFO] Data loading + union: 3.17 sec
+[INFO] Data loading + union: 3.20 sec
+[INFO] Data loading + union: 2.98 sec
+[INFO] Data loading + union: 3.35 sec
 ====================================================================
 DF pipeline for Query 2 (per year, top-3 Vict Descent)...
 +----+----------------------+-----------+----------+
@@ -63,4 +60,8 @@ DF pipeline for Query 2 (per year, top-3 Vict Descent)...
 |2025|White                 |13         |15.48     |
 +----+----------------------+-----------+----------+
 
-[TIMING] DF Query 2 pipeline: 0.37 sec
+[TIMING] DF Query 2 pipeline: 13.10 sec
+[TIMING] DF Query 2 pipeline: 14.45 sec
+[TIMING] DF Query 2 pipeline: 14.10 sec
+[TIMING] DF Query 2 pipeline: 15.93 sec
+[TIMING] DF Query 2 pipeline: 17.77 sec
