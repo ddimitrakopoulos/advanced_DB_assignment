@@ -1,13 +1,10 @@
-Starting Spark application
-
-ID	YARN Application ID	Kind	State	Spark UI	Driver log	User	Current session?
-692	application_1765289937462_0685	pyspark	idle	Link	Link	None	✔
-
-SparkSession available as 'spark'.
-
 ====================================================================
 Loading crime data as DataFrames with explicit schema...
-[INFO] Data loading + union: 2.88 sec
+[INFO] Data loading + union: 3.07 sec
+[INFO] Data loading + union: 3.21 sec
+[INFO] Data loading + union: 2.96 sec
+[INFO] Data loading + union: 3.68 sec
+[INFO] Data loading + union: 3.44 sec
 ====================================================================
 Filtering aggravated assaults and computing age groups (no UDF)...
 +--------------------+------+
@@ -19,4 +16,8 @@ Filtering aggravated assaults and computing age groups (no UDF)...
 |Seniors (>64)       |6011  |
 +--------------------+------+
 
-[TIMING] DF (no UDF) pipeline: 0.15 sec
+[TIMING] DF (no UDF) pipeline: 13.53 sec
+[TIMING] DF (no UDF) pipeline: 17.37 sec
+[TIMING] DF (no UDF) pipeline: 16.49 sec
+[TIMING] DF (no UDF) pipeline: 19.83 sec
+[TIMING] DF (no UDF) pipeline: 14.52 sec
