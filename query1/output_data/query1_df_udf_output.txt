@@ -1,6 +1,10 @@
 ====================================================================
 Reloading crime data as DataFrames with explicit schema...
 [INFO] Data loading + union: 3.32 sec
+[INFO] Data loading + union: 3.06 sec
+[INFO] Data loading + union: 3.27 sec
+[INFO] Data loading + union: 3.55 sec
+[INFO] Data loading + union: 3.15 sec
 ====================================================================
 Filtering aggravated assaults and computing age groups (with UDF)...
 +--------------------+------+
@@ -13,3 +17,7 @@ Filtering aggravated assaults and computing age groups (with UDF)...
 +--------------------+------+
 
 [TIMING] DF (with UDF) pipeline: 13.36 sec
+[TIMING] DF (with UDF) pipeline: 17.07 sec
+[TIMING] DF (with UDF) pipeline: 17.19 sec
+[TIMING] DF (with UDF) pipeline: 13.46 sec
+[TIMING] DF (with UDF) pipeline: 13.39 sec
